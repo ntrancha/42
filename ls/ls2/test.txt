@@ -1,0 +1,11144 @@
+.:
+zzz
+new dos
+test.txt
+test
+new dos
+recup.h
+recup.c
+param.h
+param.c
+list_sort.h
+list_sort.c
+list_del.h
+list_del.c
+list.h
+list.c
+ft_ls.h
+ft_ls.c
+dos.h
+dos.c
+display.c
+aaa
+new dos
+a.out
+
+./test:
+nk
+
+./aaa:
+tpli
+toto
+bbb
+new dos
+
+./aaa:
+tpli
+tpli
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa:
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+tpli
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+toto
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+bbb
+new dos
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
+./aaa/bbb:
+ccc
+
