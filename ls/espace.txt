@@ -1,0 +1,28 @@
+total 156
+d--------- 2 nk   nk    4096 déc.   4 17:01 aaa
+-rwxrwxr-x 1 nk   nk   53292 déc.   4 17:15 a.out
+-rw-r--r-- 1 nk   nk    2887 déc.   4 17:01 display.c
+-rw-r--r-- 1 nk   nk    2672 déc.   4 17:01 dos.c
+-rw-r--r-- 1 nk   nk     369 déc.   4 17:01 dos.h
+-rw-rw-r-- 1 nk   nk       0 déc.   4 17:16 espace.txt
+-rw-rw-r-- 1 nk   nk    1418 déc.   4 17:01 extra.c
+-rw-r--r-- 1 nk   nk    3672 déc.   4 17:15 ft_ls.c
+-rw-r--r-- 1 nk   nk      81 déc.   4 17:01 ft_ls.h
+-rw-r--r-- 1 nk   nk    3375 déc.   4 17:01 list.c
+-rw-r--r-- 1 nk   nk    2223 déc.   4 17:01 list_del.c
+-rw-r--r-- 1 nk   nk     189 déc.   4 17:01 list_del.h
+-rw-r--r-- 1 nk   nk    1755 déc.   4 17:01 list.h
+-rw-r--r-- 1 nk   nk    4765 déc.   4 17:01 list_sort.c
+-rw-r--r-- 1 nk   nk     243 déc.   4 17:01 list_sort.h
+drwx------ 5 root root  4096 déc.   4 17:01 ls2
+-rw-r--r-- 1 nk   nk    2160 déc.   4 17:01 param.c
+-rw-r--r-- 1 nk   nk    1319 déc.   4 17:01 param.h
+-rw-r--r-- 1 nk   nk    1871 déc.   4 17:01 print.c
+-rw-r--r-- 1 nk   nk     986 déc.   4 17:01 print.h
+-rw-r--r-- 1 nk   nk    3140 déc.   4 17:01 recup.c
+-rw-r--r-- 1 nk   nk    1021 déc.   4 17:01 recup.h
+d---r--r-- 2 nk   nk    4096 déc.   4 17:01 test
+-rw-r--r-- 1 nk   nk    3994 déc.   4 17:13 test.c
+-rw-r--r-- 1 nk   nk    1118 déc.   4 17:01 test.h
+drwx------ 3 nk   nk    4096 déc.   4 17:01 zzz
+[10]+[1]+[]+[]+-[]+[4]---[1]+[5]+[]

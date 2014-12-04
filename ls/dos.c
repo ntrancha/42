@@ -21,7 +21,7 @@ t_dos		*ft_list_dos_create(char *path)
 		racine = malloc(sizeof(t_dos));
 		if (racine == NULL || path == NULL || ft_strlen(path) == 0)
 			return (NULL);
-    	str = malloc(sizeof(char) * ft_strlen(path) + 1);
+    	str = malloc(sizeof(char) * (ft_strlen(path) + 1));
 		if (!str)
 		{
 			ft_memdel(&racine);

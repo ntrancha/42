@@ -24,80 +24,6 @@
 #include "recup.h"
 #include "param.h"
 
-char		*ft_ls_return_file(char *str)
-{
-	int		index;
-	char	*ret;
-
-	index = ft_strlen(str);
-	while (index >= 0)
-	{
-		if (str[index] == '/')
-			return (ft_strsub(str, index + 1, (ft_strlen(str) - index)));
-		index--;
-	}
-	return (ft_strdup(str));
-}
-
-char		*ft_ls_return_path(char *str)
-{
-	char	*ret;
-	int		index;
-	int		test = 0;
-
-	index = ft_strlen(str);
-	while (index-- >= 0)
-	{
-		if (str[index] == '/')
-			test = 1;
-	}
-	if (test == 0)
-	{
-		ret = ft_strnew(2);
-		ret[0] = '.';
-		ret[1] = '\0';
-		return (ret);
-	}
-	index = ft_strlen(str);
-	ret = ft_strdup(str);
-	while (index-- > 1)
-	{
-		if (ret[index] == '/')
-		{
-			ret[index] = '\0';
-			index = 0;
-		}
-	}
-	return (ret);
-}
-
-
-
-void		ft_ls_error(char *str, t_param *param)
-{
-	ft_putstr(param->prog_name);
-	ft_putstr(": ");
-	ft_putstr(str);
-	ft_putstr(": ");
-	ft_putstr(strerror( errno ));
-	ft_putstr("\n");
-}
-
-int			ft_ls_test_dir(char *str)
-{
-	DIR		*dir;
-	int		ret;
-
-	dir = opendir(str);
-	if (dir != NULL)
-	{
-		closedir(dir);
-		return (1);
-	}
-	ret = 0;//ft_ls_test_file(str, param);
-	return (ret);
-}
-
 int			ft_ls_return_rights(t_stat m)
 {
 	int 	ret;
@@ -126,6 +52,79 @@ int			ft_ls_return_rights(t_stat m)
 	return (ret);
 }
 
+char		*ft_ls_return_file(char *str)
+{
+	int		index;
+	char	*ret;
+
+	index = ft_strlen(str);
+	while (index >= 0)
+	{
+		if (str[index] == '/')
+			return (ft_strsub(str, index + 1, (ft_strlen(str) - index)));
+		index--;
+	}
+	return (ft_strdup(str));
+}
+
+char		*ft_ls_return_path(char *str)
+{
+	char	*ret;
+	int		index;
+	int		test = 0;
+
+	index = ft_strlen(str);
+	while (index-- >= 0 && str[index] == '\0')
+	{
+		if (str[index] == '/')
+			test = 1;
+	}
+	if (test == 0)
+	{
+		ret = ft_strnew(2);
+		ret[0] = '.';
+		ret[1] = '\0';
+		return (ret);
+	}
+	index = ft_strlen(str);
+	ret = ft_strdup(str);
+	while (index-- > 1)
+	{
+		if (ret[index] == '/')
+		{
+			ret[index] = '\0';
+			index = 0;
+		}
+	}
+	return (ret);
+}
+
+void		ft_ls_error(char *str, t_param *param)
+{
+	ft_putstr(param->prog_name);
+	ft_putstr(": ");
+	ft_putstr(str);
+	ft_putstr(": ");
+	ft_putstr(strerror( errno ));
+	ft_putstr("\n");
+}
+
+int			ft_ls_test_dir(char *str)
+{
+	DIR		*dir;
+	int		ret;
+
+	dir = opendir(str);
+	if (dir != NULL)
+	{
+		closedir(dir);
+		return (1);
+	}
+	ret = 0;
+	return (ret);
+}
+
+
 int			ft_ls_test_file_next(char *path, char *file)
 {
 	t_dir	*files;
@@ -148,6 +147,7 @@ int			ft_ls_test_file_next(char *path, char *file)
 	}
 	return (-1);
 }
+
 int			ft_ls_test_file(char *str)
 {
 	int		ret;

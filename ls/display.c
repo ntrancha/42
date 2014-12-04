@@ -54,6 +54,7 @@ void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
 	while (fichier)
 	{
 		if (fichier->str[0] != '.' || param->a)
+		{
 			if (ft_strcmp(fichier->str, list->path) != 0)
 			{
 				if (param->l == 0)
@@ -61,20 +62,21 @@ void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
 				else
 					ft_ls_display_list(list, param, fichier);
 			}
-		if (fichier->stats->type == 'd' && param->recursive == 1)
-		{
-			if (ft_strcmp(fichier->str, "..") != 0)
-				if (ft_strcmp(fichier->str, ".") != 0)
-				{
-					if (ft_strcmp(list->path, "/") != 0)
-						ft_ls_new_path(&str2, list->path, "/");
-					else
-						ft_ls_new_path(&str2, list->path, "");
-					ft_ls_new_path(&str, str2, fichier->str);
-					ft_strdel(&str2);
-					list = ft_list_add_dir(list, str);
-					ft_strdel(&str);
-				}
+			if (fichier->stats->type == 'd' && param->recursive == 1)
+			{
+				if (ft_strcmp(fichier->str, "..") != 0)
+					if (ft_strcmp(fichier->str, ".") != 0)
+					{
+						if (ft_strcmp(list->path, "/") != 0)
+							ft_ls_new_path(&str2, list->path, "/");
+						else
+							ft_ls_new_path(&str2, list->path, "");
+						ft_ls_new_path(&str, str2, fichier->str);
+						ft_strdel(&str2);
+						list = ft_list_add_dir(list, str);
+						ft_strdel(&str);
+					}
+			}
 		}
 		if (param->r == 1)
 			fichier = fichier->next;

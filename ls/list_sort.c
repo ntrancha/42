@@ -46,6 +46,8 @@ int        ft_list_sort_name(t_llist *list, int s)
     char    *str2;
     t_list  *node;
 
+	if (list == NULL)
+		return (-1);
         node = list->start;
         while (node && node->next)
         {
@@ -56,12 +58,14 @@ int        ft_list_sort_name(t_llist *list, int s)
 				test = 1;
             if ((ft_strcmp(str1, str2) > 0 && s > 0) || test == 1)
 			{
-            	ft_list_permutte(list, node);
+				if (str1 && str2)
+	            	ft_list_permutte(list, node);
            		return (ft_list_sort_name(list, s));
 			}
             else
                 node = node->next;
         }
+		return (s);
 }
 
 int        ft_list_sort_size(t_llist *list, int s)
@@ -87,6 +91,7 @@ int        ft_list_sort_size(t_llist *list, int s)
             else
                 node = node->next;
         }
+		return (s);
 }
 
 int        ft_list_sort_mtime(t_llist *list, int s)

@@ -101,6 +101,8 @@ int		main(int argc, char **argv)
 	}
 	if (dos == NULL)
 		dos = ft_list_dos_new(".", dos);
+	if (dos == NULL)
+		return (-1);
 	ft_list_dos_sort(&dos, param->r);
 	ft_ls_test_dos(&dos, &file, param);
 	ft_list_dos_del(&file);
@@ -108,7 +110,7 @@ int		main(int argc, char **argv)
 	{
 		ft_putstr(file->str);
 		ft_putstr("\n");
-		file = file->next;
+		ft_list_dos_del(&file);
 		if (file == NULL && param->m > 0)
 			ft_putstr("\n");
 	}
@@ -141,6 +143,7 @@ int		main(int argc, char **argv)
 			ft_putstr("\n");
 	}
 	dos = ft_list_dos_free(&dos);
+	dos = ft_list_dos_free(&file);
 	param = ft_ls_param_del(param);
 	return (0);
 }

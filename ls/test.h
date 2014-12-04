@@ -12,6 +12,8 @@
 
 #ifndef TEST_H
 # define TEST_H
+# include "dos.h"
+# include "param.h"
 
 int	        ft_ls_test_dos(t_dos **dos, t_dos **file, t_param *param);
 int         ft_ls_test_file(char *str);

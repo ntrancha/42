@@ -13,6 +13,7 @@
 #include <dirent.h>
 #include "list.h"
 #include "recup.h"
+#include "test.h"
 #include "param.h"
 #include <sys/stat.h>
 #include <pwd.h>
@@ -38,8 +39,20 @@ void		ft_ls_recup_mode(t_llist *list, t_param *param, t_dir *fichierLu)
 		list->end->stats->type = 'u';
 }
 
-t_llist		*ft_ls_recup_next(t_llist *list, t_param *param, t_stat s)
+t_llist		*ft_ls_recup_next(t_llist *list, t_param *param, t_stat s, t_dir *fichierLu)
 {
+	int		a;
+	t_pass	*pass2;
+
+	pass2 = getpwuid(s.st_gid);
+	if (pass2 && fichierLu->d_name != "." && fichierLu->d_name != ".." )
+	{
+		a = ft_strlen(pass2->pw_name);
+		list->end->stats->group = malloc(sizeof(char) * a + 1);
+		if (list->end->stats->group == NULL)
+			return (NULL);
+		ft_strcpy(list->end->stats->group, pass2->pw_name);
+	}
 	if ((s.st_mode & S_IFMT) == S_IFDIR)
 		list->end->stats->mode = 1;
 	return (list);
@@ -50,11 +63,14 @@ t_llist		*ft_ls_recup_stats(t_llist *list, t_param *param, t_dir *fichierLu)
 	int		a;
 	t_stat	s;
 	t_pass	*pass;
-	t_pass	*pass2;
 
-	lstat(fichierLu->d_name,&s);
+	s = NULL;
+	if (lstat(fichierLu->d_name,&s) == 0)
+		if (stat(fichierLu->d_name,&s) == 0)
+			return (NULL);
+	if (ft_ls_return_rights(s) < 400)
+			return (NULL);
 	pass = getpwuid(s.st_uid);
-	pass2 = getpwuid(s.st_gid);
 	if (pass)
 	{
 		a = ft_strlen(pass->pw_name);
@@ -63,15 +79,7 @@ t_llist		*ft_ls_recup_stats(t_llist *list, t_param *param, t_dir *fichierLu)
 			return (NULL);
 		ft_strcpy(list->end->stats->user, pass->pw_name);
 	}
-	if (pass2 && fichierLu->d_name != "." && fichierLu->d_name != ".." )
-	{
-		a = ft_strlen(pass2->pw_name);
-		list->end->stats->group = malloc(sizeof(char) * a + 1);
-		if (list->end->stats->group == NULL)
-			return (NULL);
-		ft_strcpy(list->end->stats->group, pass2->pw_name);
-	}
-	return (ft_ls_recup_next(list, param, s));
+	return (ft_ls_recup_next(list, param, s, fichierLu));
 }
 
 int                 ft_ls_recup(t_llist *list, t_param *param)
@@ -82,8 +90,8 @@ int                 ft_ls_recup(t_llist *list, t_param *param)
 
 	if (!list)
 		return (0);
-	if (ft_ls_test_dir(list->path, param) == 0)
-		return (1);
+	if (ft_ls_test_dir(list->path) == 0)
+		return (0);
 	dir = opendir(list->path);
 	if (!dir)
 		return (0);
