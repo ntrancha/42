@@ -64,7 +64,6 @@ t_llist		*ft_ls_recup_stats(t_llist *list, t_param *param, t_dir *fichierLu)
 	t_stat	s;
 	t_pass	*pass;
 
-	s = NULL;
 	if (lstat(fichierLu->d_name,&s) == 0)
 		if (stat(fichierLu->d_name,&s) == 0)
 			return (NULL);
@@ -91,7 +90,7 @@ int                 ft_ls_recup(t_llist *list, t_param *param)
 	if (!list)
 		return (0);
 	if (ft_ls_test_dir(list->path) == 0)
-		return (0);
+		return (1);
 	dir = opendir(list->path);
 	if (!dir)
 		return (0);

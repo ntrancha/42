@@ -42,6 +42,7 @@ void		ft_list_permutte(t_llist *repere, t_list *node)
 int        ft_list_sort_name(t_llist *list, int s)
 {
 	int		test;
+	int		test2;
     char    *str1;
     char    *str2;
     t_list  *node;
@@ -49,6 +50,7 @@ int        ft_list_sort_name(t_llist *list, int s)
 	if (list == NULL)
 		return (-1);
         node = list->start;
+		test2 = 0;
         while (node && node->next)
         {
             str1 = node->str;
@@ -59,12 +61,16 @@ int        ft_list_sort_name(t_llist *list, int s)
             if ((ft_strcmp(str1, str2) > 0 && s > 0) || test == 1)
 			{
 				if (str1 && str2)
+				{
+					test2 = 1;
 	            	ft_list_permutte(list, node);
-           		return (ft_list_sort_name(list, s));
+				 }
 			}
             else
                 node = node->next;
         }
+		if (test2 != 0)
+        	return (ft_list_sort_name(list, s));
 		return (s);
 }
 
@@ -101,6 +107,8 @@ int        ft_list_sort_mtime(t_llist *list, int s)
     long    size2;
     t_list  *node;
 
+	if (list == NULL)
+		return (-1);
     node = list->start;
     while (node && node->next)
     {
@@ -125,10 +133,14 @@ int			ft_list_sort_path(t_llist **racine, int sort)
 	t_llist	*prev;
 	t_llist	*tmp;
 	t_llist	*next;
+	int		test;
 
 	prev = NULL;
+	if (racine == NULL)
+		return (-1);
 	tmp = (*racine);
 	next = (*racine)->next;
+	test = 0;
 	while (next)
 	{
 		if ((ft_strcmp(tmp->path, next->path) > 0 && sort > 0) ||
@@ -140,12 +152,17 @@ int			ft_list_sort_path(t_llist **racine, int sort)
 				(*racine) = next;
 			tmp->next = next->next;
 			next->next = tmp;
-			return (ft_list_sort_path(racine, sort));
+			test = 1;
 		}
 		prev = tmp;
 		tmp = tmp->next;
-		next = tmp->next;
+		if (tmp != NULL && tmp->next != NULL)
+			next = tmp->next;
+		else
+			next = NULL;
 	}
+	if (test == 1 && sort < 20)
+		return (ft_list_sort_path(racine, sort * 2));
 	return (1);
 }
 
