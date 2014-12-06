@@ -64,10 +64,10 @@ t_llist		*ft_ls_recup_stats(t_llist *list, t_param *param, t_dir *fichierLu)
 	t_stat	s;
 	t_pass	*pass;
 
-	if (lstat(fichierLu->d_name,&s) == 0)
-		if (stat(fichierLu->d_name,&s) == 0)
+	if (lstat(fichierLu->d_name,&s) != 0)
+		if (stat(fichierLu->d_name,&s) != 0)
 			return (NULL);
-	if (ft_ls_return_rights(s) < 400)
+	if (ft_ls_return_rights(fichierLu) < 400)
 			return (NULL);
 	pass = getpwuid(s.st_uid);
 	if (pass)
@@ -81,11 +81,33 @@ t_llist		*ft_ls_recup_stats(t_llist *list, t_param *param, t_dir *fichierLu)
 	return (ft_ls_recup_next(list, param, s, fichierLu));
 }
 
+void			ft_ls_recup_file(t_llist *list, t_param *param, t_dir *file)
+{
+	t_stat	s;
+
+	if (param->t == 1 || param->l == 1)
+	{
+		if (lstat(file->d_name,&s) == 0)
+		{
+			list = ft_list_add(list, file->d_name, (int)s.st_size);
+			list->end->time->atime = s.st_atime;
+			list->end->time->mtime = s.st_mtime;
+			list->end->time->ctime = s.st_ctime;
+		}
+		else
+			list = ft_list_add(list, file->d_name, 0);
+	}
+	else
+		list = ft_list_add(list, file->d_name, 0);
+	if (param->l == 1)
+		ft_ls_recup_stats(list, param, file);
+	ft_ls_recup_mode(list, param, file);
+}
+
 int                 ft_ls_recup(t_llist *list, t_param *param)
 {
 	DIR		*dir;
 	t_dir	*file;
-	t_stat	s;
 
 	if (!list)
 		return (0);
@@ -95,15 +117,7 @@ int                 ft_ls_recup(t_llist *list, t_param *param)
 	if (!dir)
 		return (0);
 	while (file = readdir(dir))
-	{
-		lstat(file->d_name,&s);
-		list = ft_list_add(list, file->d_name, (int)s.st_size);
-		list->end->time->atime = s.st_atime;
-		list->end->time->mtime = s.st_mtime;
-		list->end->time->ctime = s.st_ctime;
-		ft_ls_recup_stats(list, param, file);
-		ft_ls_recup_mode(list, param, file);
-	}
+		ft_ls_recup_file(list, param, file);
 	closedir(dir);
 	return (1);
 }

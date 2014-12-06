@@ -43,7 +43,7 @@ char		*ft_ls_add_path(char **fichier, char *path)
 	tmp = ft_strdup(*fichier);
 	if (tmp == NULL)
 		return (NULL);
-	free(*fichier);
+	ft_strdel(fichier);
 	*fichier = ft_strjoin(path, tmp);
 	return (*fichier);
 }

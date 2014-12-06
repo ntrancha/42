@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "list.h"
+#include "dos.h"
 #include "param.h"
 #include "print.h"
 #include <stdlib.h>
@@ -24,6 +25,7 @@ void			ft_ls_new_path(char **dst, char *str1, char *str2)
 	int			size;
 
 	size = ft_strlen(str1) + ft_strlen(str2) + 1;
+	ft_strdel(dst);
 	*dst = (char*)malloc(sizeof(char) * size);
 	ft_strcpy(*dst, str1);
 	ft_strcat(*dst, str2);
@@ -34,6 +36,18 @@ void			ft_ls_display_std(char *str)
 	ft_putstr(str);
 	ft_putstr("\n");
 	
+}
+
+void			ft_ls_display_file(t_dos **file, t_param *param)
+{
+	while (*file != NULL)
+    {
+        ft_putstr((*file)->str);
+        ft_putstr("\n");
+        ft_list_dos_del(file);
+        if (*file == NULL && param->m > 0)
+            ft_putstr("\n");
+    }
 }
 
 void			ft_ls_display_list(t_llist *list, t_param *param, t_list *fichier)
@@ -51,6 +65,8 @@ void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
 	char		*str;
 	char		*str2;
 
+	str2 = NULL;
+	str = NULL;
 	while (fichier)
 	{
 		if (fichier->str[0] != '.' || param->a)

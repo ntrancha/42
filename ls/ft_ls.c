@@ -67,22 +67,18 @@ t_dos		*ft_ls_arg(t_param *param, int argc, char **argv)
 	while (++count < argc)
     {
         param->m++;
-        //if (ft_ls_testdir(argv[count]))
-        //{
             dos = ft_list_dos_new(argv[count], dos);
 			if (dos == NULL)
 			{
 				param->m = -1;
 				return (NULL);
 			}
-        //}
     }
 	return (dos);
 }
 
 int		main(int argc, char **argv)
 {
-		
 	t_param *param;
     t_dos   *dos;
     t_dos   *file;
@@ -106,14 +102,7 @@ int		main(int argc, char **argv)
 	ft_list_dos_sort(&dos, param->r);
 	ft_ls_test_dos(&dos, &file, param);
 	ft_list_dos_del(&file);
-	while (file != NULL)
-	{
-		ft_putstr(file->str);
-		ft_putstr("\n");
-		ft_list_dos_del(&file);
-		if (file == NULL && param->m > 0)
-			ft_putstr("\n");
-	}
+	ft_ls_display_file(&file, param);
 	while (dos != NULL)
 	{
 		list = ft_list_create(dos->str);
@@ -124,6 +113,7 @@ int		main(int argc, char **argv)
 		}
 		while (list != NULL)
 		{
+			ft_list_sort_name(list, param->r);
 			if (ft_ls_recup(list, param) == 0)
 				return (-1);
 			if (param->t == 1)
