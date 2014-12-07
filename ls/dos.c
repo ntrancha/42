@@ -12,6 +12,9 @@
 
 #include "dos.h"
 #include <stdlib.h>
+#include <libft.h>
+#include "list.h"
+#include "list_del.h"
 
 t_dos		*ft_list_dos_create(char *path)
 {
@@ -24,7 +27,7 @@ t_dos		*ft_list_dos_create(char *path)
     	str = malloc(sizeof(char) * (ft_strlen(path) + 1));
 		if (!str)
 		{
-			ft_memdel(&racine);
+			ft_memdel((void*)&racine);
 			return (NULL);
 		}
 		racine->next = NULL;
@@ -47,7 +50,7 @@ t_dos		*ft_list_dos_new(char *path, t_dos *racine)
     str = malloc(sizeof(char) * ft_strlen(path) + 1);
 	if (str == NULL)
 	{
-		ft_memdel(&p_new);
+		ft_memdel((void*)&p_new);
 		return (NULL);
 	}
 	tmp = racine;
@@ -71,7 +74,7 @@ void		ft_list_dos_del(t_dos **racine)
 	{
 		tmp2 = tmp->next;
 		ft_strdel(&tmp->str);
-		ft_memdel(&tmp);
+		ft_memdel((void*)&tmp);
 		tmp = NULL;
 		(*racine) = tmp2;
 	}

@@ -11,13 +11,9 @@
 /* ************************************************************************** */
 
 #include <libft.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <dirent.h>
 
 int			ft_ls_path(char *str)
 {
-	int		*ret;
 	int		len;
 
 	len = ft_strlen(str);

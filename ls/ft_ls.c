@@ -10,33 +10,24 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <dirent.h>
+#include <stdlib.h>
+#include <libft.h>
 #include "param.h"
 #include "list.h"
+#include "list_sort.h"
+#include "list_sort_path.h"
 #include "list_del.h"
 #include "dos.h"
 #include "test.h"
+#include "recup.h"
+#include "display.h"
 #include "ft_ls.h"
-#include <dirent.h>
-#include <stdlib.h>
+#include "print.h"
 
-int         ft_ls_testdir(char *str)
+static int		ft_ls_arg_option(t_param *param, int argc, char **argv)
 {
-    DIR     *ret;
-
-        ret = opendir(str);
-        if (ret)
-        {
-            closedir(ret);
-            return (1);
-        }
-        ft_putstr(str);
-        ft_putstr(": Aucun fichier ou dossier de ce type\n");
-    return (0);
-}
-
-int			ft_ls_arg_option(t_param *param, int argc, char **argv)
-{
-	int		count;
+	int			count;
 
 	count = 0;
 	while (++count < argc && argv[count][0] == '-')
@@ -51,10 +42,10 @@ int			ft_ls_arg_option(t_param *param, int argc, char **argv)
 	return (count);
 }
 
-t_dos		*ft_ls_arg(t_param *param, int argc, char **argv)
+static t_dos	*ft_ls_arg(t_param *param, int argc, char **argv)
 {
-	int		count;
-    t_dos   *dos;
+	int			count;
+    t_dos   	*dos;
 
 	dos = NULL;
     param->m++;
@@ -77,12 +68,55 @@ t_dos		*ft_ls_arg(t_param *param, int argc, char **argv)
 	return (dos);
 }
 
-int		main(int argc, char **argv)
+static t_llist	*ft_ls3(t_llist *list, t_param *param)
 {
-	t_param *param;
-    t_dos   *dos;
-    t_dos   *file;
-	t_llist	*list;
+	while (list != NULL)
+	{
+		ft_list_sort_name(list, param->r);
+		if (ft_ls_recup(list, param) == 0)
+			return (NULL);
+		if (param->t == 1)
+			ft_list_sort_mtime(list, param->r);
+		ft_ls_display(list, param);
+		if (!(param->recursive == 1 || param->r == -1))
+			ft_list_sort_path(&list, param->r);
+		list = ft_list_del_path(list);
+		if (list && (param->recursive == 1 || param->r == -1))
+			ft_list_sort_path(&list, param->r);
+		if (list)
+			ft_putstr("\n");
+	}
+	return (list);
+}
+
+static int		ft_ls2(t_dos *dos, t_llist *list, t_param *param, t_dos *file)
+{
+	while (dos != NULL)
+	{
+		list = ft_list_create(dos->str);
+		if ((param->m > 1 || param->f > 0) && param->recursive == 0)
+		{
+			ft_putstr(list->path);
+			ft_putstr(":\n");
+		}
+		list = ft_ls3(list, param);
+		ft_list_del(list);
+		ft_list_dos_del(&dos);
+		if (dos != NULL)
+			ft_putstr("\n");
+	}
+	dos = ft_list_dos_free(&dos);
+	dos = ft_list_dos_free(&file);
+	param = ft_ls_param_del(param);
+	return (0);
+}
+
+static int		ft_ls(int argc, char **argv)
+{
+	t_param 	*param;
+    t_dos   	*dos;
+    t_dos   	*file;
+	t_llist		*list;
 
     param = ft_ls_param_new();
 	if (param == NULL)
@@ -103,37 +137,10 @@ int		main(int argc, char **argv)
 	ft_ls_test_dos(&dos, &file, param);
 	ft_list_dos_del(&file);
 	ft_ls_display_file(&file, param);
-	while (dos != NULL)
-	{
-		list = ft_list_create(dos->str);
-		if ((param->m > 1 || param->f > 0) && param->recursive == 0)
-		{
-			ft_putstr(list->path);
-			ft_putstr(":\n");
-		}
-		while (list != NULL)
-		{
-			ft_list_sort_name(list, param->r);
-			if (ft_ls_recup(list, param) == 0)
-				return (-1);
-			if (param->t == 1)
-				ft_list_sort_mtime(list, param->r);
-			ft_ls_display(list, param);
-			if (!(param->recursive == 1 || param->r == -1))
-				ft_list_sort_path(&list, param->r);
-			list = ft_list_del_path(list);
-			if (list && (param->recursive == 1 || param->r == -1))
-				ft_list_sort_path(&list, param->r);
-			if (list)
-				ft_putstr("\n");
-		}
-		ft_list_del(list);
-		ft_list_dos_del(&dos);
-		if (dos != NULL)
-			ft_putstr("\n");
-	}
-	dos = ft_list_dos_free(&dos);
-	dos = ft_list_dos_free(&file);
-	param = ft_ls_param_del(param);
-	return (0);
+	return (ft_ls2(dos, list, param, file));
+}
+
+int		main(int argc, char **argv)
+{
+	return (ft_ls(argc, argv));
 }

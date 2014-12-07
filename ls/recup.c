@@ -11,41 +11,43 @@
 /* ************************************************************************** */
 
 #include <dirent.h>
-#include "list.h"
-#include "recup.h"
-#include "test.h"
-#include "param.h"
 #include <sys/stat.h>
 #include <pwd.h>
 #include <stdlib.h>
+#include <libft.h>
+#include "list.h"
+#include "recup.h"
+#include "return.h"
+#include "test.h"
+#include "param.h"
 
-void		ft_ls_recup_mode(t_llist *list, t_param *param, t_dir *fichierLu)
+void		ft_ls_recup_mode(t_llist *list, t_dir *file)
 {
-	if (fichierLu->d_type == DT_BLK)
+	if (file->d_type == DT_BLK)
 		list->end->stats->type = 'b';
-	if (fichierLu->d_type == DT_CHR)
+	if (file->d_type == DT_CHR)
 		list->end->stats->type = 'c';
-	if (fichierLu->d_type == DT_DIR)
+	if (file->d_type == DT_DIR)
 		list->end->stats->type = 'd';
-	if (fichierLu->d_type == DT_FIFO)
+	if (file->d_type == DT_FIFO)
 		list->end->stats->type = 'f';
-	if (fichierLu->d_type == DT_LNK)
+	if (file->d_type == DT_LNK)
 		list->end->stats->type = 'l';
-	if (fichierLu->d_type == DT_REG)
+	if (file->d_type == DT_REG)
 		list->end->stats->type = 'r';
-	if (fichierLu->d_type == DT_SOCK)
+	if (file->d_type == DT_SOCK)
 		list->end->stats->type = 's';
-	if (fichierLu->d_type == DT_UNKNOWN)
+	if (file->d_type == DT_UNKNOWN)
 		list->end->stats->type = 'u';
 }
 
-t_llist		*ft_ls_recup_next(t_llist *list, t_param *param, t_stat s, t_dir *fichierLu)
+t_llist		*ft_ls_recup2(t_llist *list, t_stat s, t_dir *file)
 {
 	int		a;
 	t_pass	*pass2;
 
 	pass2 = getpwuid(s.st_gid);
-	if (pass2 && fichierLu->d_name != "." && fichierLu->d_name != ".." )
+	if (pass2 && !ft_strcmp(file->d_name, ".") && !ft_strcmp(file->d_name, ".."))
 	{
 		a = ft_strlen(pass2->pw_name);
 		list->end->stats->group = malloc(sizeof(char) * a + 1);
@@ -58,16 +60,16 @@ t_llist		*ft_ls_recup_next(t_llist *list, t_param *param, t_stat s, t_dir *fichi
 	return (list);
 }
 
-t_llist		*ft_ls_recup_stats(t_llist *list, t_param *param, t_dir *fichierLu)
+t_llist		*ft_ls_recup_stats(t_llist *list, t_dir *file)
 {
 	int		a;
 	t_stat	s;
 	t_pass	*pass;
 
-	if (lstat(fichierLu->d_name,&s) != 0)
-		if (stat(fichierLu->d_name,&s) != 0)
+	if (lstat(file->d_name,&s) != 0)
+		if (stat(file->d_name,&s) != 0)
 			return (NULL);
-	if (ft_ls_return_rights(fichierLu) < 400)
+	if (ft_ls_return_rights(file) < 400)
 			return (NULL);
 	pass = getpwuid(s.st_uid);
 	if (pass)
@@ -78,7 +80,7 @@ t_llist		*ft_ls_recup_stats(t_llist *list, t_param *param, t_dir *fichierLu)
 			return (NULL);
 		ft_strcpy(list->end->stats->user, pass->pw_name);
 	}
-	return (ft_ls_recup_next(list, param, s, fichierLu));
+	return (ft_ls_recup2(list, s, file));
 }
 
 void			ft_ls_recup_file(t_llist *list, t_param *param, t_dir *file)
@@ -100,8 +102,8 @@ void			ft_ls_recup_file(t_llist *list, t_param *param, t_dir *file)
 	else
 		list = ft_list_add(list, file->d_name, 0);
 	if (param->l == 1)
-		ft_ls_recup_stats(list, param, file);
-	ft_ls_recup_mode(list, param, file);
+		ft_ls_recup_stats(list, file);
+	ft_ls_recup_mode(list, file);
 }
 
 int                 ft_ls_recup(t_llist *list, t_param *param)
@@ -116,7 +118,7 @@ int                 ft_ls_recup(t_llist *list, t_param *param)
 	dir = opendir(list->path);
 	if (!dir)
 		return (0);
-	while (file = readdir(dir))
+	while ((file = readdir(dir)))
 		ft_ls_recup_file(list, param, file);
 	closedir(dir);
 	return (1);

@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include <dirent.h>
-#include <errno.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
@@ -24,16 +23,7 @@
 #include "recup.h"
 #include "param.h"
 #include "return.h"
-
-void		ft_ls_error(char *str, t_param *param)
-{
-	ft_putstr(param->prog_name);
-	ft_putstr(": ");
-	ft_putstr(str);
-	ft_putstr(": ");
-	ft_putstr(strerror( errno ));
-	ft_putstr("\n");
-}
+#include "error.h"
 
 int			ft_ls_test_dir(char *str)
 {
@@ -60,7 +50,7 @@ int			ft_ls_test_file_next(char *path, char *file)
 	dir = opendir(path);
 	if (dir != NULL)
 	{
-		while (files = readdir(dir))
+		while ((files = readdir(dir)))
 		{
 			if (ft_strcmp(files->d_name, file) == 0)
 			{
@@ -88,7 +78,7 @@ int			ft_ls_test_file(char *str)
 	return (ret);
 }
 
-int			ft_ls_test_dos_next(t_dos *tmp, t_dos **file, t_param *param)
+int			ft_ls_test_dos2(t_dos *tmp, t_dos **file, t_param *param)
 {
 	if (ft_ls_test_file(tmp->str) != -1)
 	{
@@ -112,7 +102,7 @@ int			ft_ls_test_dos(t_dos **dos, t_dos **file, t_param *param)
 	{
 		if (ft_ls_test_dir(tmp->str) == 0)
 		{
-			ft_ls_test_dos_next(tmp, file, param);
+			ft_ls_test_dos2(tmp, file, param);
 			if (prev != NULL)
 				prev->next = tmp->next;
 			else

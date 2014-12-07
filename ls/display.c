@@ -10,32 +10,27 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
-#include "dos.h"
-#include "param.h"
-#include "print.h"
 #include <stdlib.h>
 #include <sys/stat.h>
 #include <pwd.h>
 #include <dirent.h>
+#include <libft.h>
+#include "display.h"
+#include "print.h"
+#include "list.h"
+#include "list_sort.h"
+#include "param.h"
 #include "recup.h"
-
-void			ft_ls_new_path(char **dst, char *str1, char *str2)
-{
-	int			size;
-
-	size = ft_strlen(str1) + ft_strlen(str2) + 1;
-	ft_strdel(dst);
-	*dst = (char*)malloc(sizeof(char) * size);
-	ft_strcpy(*dst, str1);
-	ft_strcat(*dst, str2);
-}
+#include "return.h"
+#include "test.h"
+#include "error.h"
+#include "print.h"
+#include <time.h>
 
 void			ft_ls_display_std(char *str)
 {
 	ft_putstr(str);
 	ft_putstr("\n");
-	
 }
 
 void			ft_ls_display_file(t_dos **file, t_param *param)
@@ -50,14 +45,52 @@ void			ft_ls_display_file(t_dos **file, t_param *param)
     }
 }
 
-void			ft_ls_display_list(t_llist *list, t_param *param, t_list *fichier)
+void			ft_ls_recup_size(t_llist *root, t_param *param)
 {
-	t_stat  s;
 
-    lstat(fichier->str,&s);
+	root->size_link = links_max_len(root, 0, param);
+	root->size_user = user_max_len(root, 0, 0, param);
+	root->size_group = group_max_len(root, 0, 0, param);
+	root->size_size = size_max_len(root, 0, param);
+}
+
+int				ft_ls_display_list(t_list *fichier, t_llist *root)
+{
+	t_stat  	s;
+	char		*str;
+	char		*tmp;
+	t_pass		*pass;
+	int			len;
+
+	tmp = ft_strjoin(root->path, "/");
+	str = ft_strjoin(tmp, fichier->str);
+	ft_strdel(&tmp);
+    if (lstat(str, &s) != 0)
+    	if (stat(str, &s) != 0)
+			return (-1);
 	print_rights(s.st_mode);
+	print_space(root->size_link - ft_nbrlen(s.st_nlink) + 1);
+	ft_putnbr(s.st_nlink);
+	ft_putstr(" ");
+	pass = getpwuid(s.st_uid);
+	ft_putstr(pass->pw_name);
+	len = ft_strlen(pass->pw_name);
+	print_space(root->size_user - len + 1);
+	pass = getpwuid(s.st_gid);
+	if (pass != NULL)
+	{
+		ft_putstr(pass->pw_name);
+		len = ft_strlen(pass->pw_name);
+		print_space(root->size_group - len + 1);
+	}
+	print_space(root->size_size - ft_nbrlen(s.st_size));
+	ft_putnbr(s.st_size);
+	ft_putstr(" ");
+	ft_putstr(ctime(&s.st_mtime));
 	ft_putstr(" ");
 	ft_ls_display_std(fichier->str);
+	ft_strdel(&str);
+	return (0);
 }
 
 void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
@@ -76,7 +109,7 @@ void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
 				if (param->l == 0)
 					ft_ls_display_std(fichier->str);
 				else
-					ft_ls_display_list(list, param, fichier);
+					ft_ls_display_list(fichier, list);
 			}
 			if (fichier->stats->type == 'd' && param->recursive == 1)
 			{
@@ -84,10 +117,10 @@ void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
 					if (ft_strcmp(fichier->str, ".") != 0)
 					{
 						if (ft_strcmp(list->path, "/") != 0)
-							ft_ls_new_path(&str2, list->path, "/");
+							ft_ls_return_new_path(&str2, list->path, "/");
 						else
-							ft_ls_new_path(&str2, list->path, "");
-						ft_ls_new_path(&str, str2, fichier->str);
+							ft_ls_return_new_path(&str2, list->path, "");
+						ft_ls_return_new_path(&str, str2, fichier->str);
 						ft_strdel(&str2);
 						list = ft_list_add_dir(list, str);
 						ft_strdel(&str);
@@ -107,7 +140,9 @@ void		ft_ls_display(t_llist *list, t_param *param)
 
 	if (list)
 	{
-		if (param->t)
+		if (param->l == 1)
+			ft_ls_recup_size(list, param);
+		if (param->t == 1)
 			ft_list_sort_mtime(list, 1);
 		else
 			ft_list_sort_name(list, 1);
@@ -120,7 +155,7 @@ void		ft_ls_display(t_llist *list, t_param *param)
 			ft_putstr(list->path);
 			ft_putstr(":\n");
 		}
-		if (ft_ls_test_dir(list->path, param) == 0)
+		if (ft_ls_test_dir(list->path) == 0)
 			ft_ls_error(list->path, param);
 		else
 			ft_ls_display_next(list, param, fichier);

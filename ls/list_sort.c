@@ -10,8 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
+#include <libft.h>
 #include <stdlib.h>
+#include "list.h"
 
 int			ft_list_permutte(t_llist *repere, t_list *node)
 {

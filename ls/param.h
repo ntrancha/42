@@ -24,6 +24,8 @@ struct          s_param
     int         t; 
     int         m; 
     int         f; 
+	int			row;
+	int			col;
     char		*prog_name; 
 };
 

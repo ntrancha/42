@@ -23,15 +23,16 @@
 #include "dos.h"
 #include "recup.h"
 #include "param.h"
+#include <sys/ioctl.h>
 
-int         ft_ls_return_rights(t_dir *fichierLu)
+int         ft_ls_return_rights(t_dir *file)
 {
     int     ret;
     t_stat  m;
 
     ret = 0;
-    if (lstat(fichierLu->d_name,&m) != 0)
-        if (stat(fichierLu->d_name,&m) != 0)
+    if (lstat(file->d_name,&m) != 0)
+        if (stat(file->d_name,&m) != 0)
             return (0);
     if ((m.st_mode & S_IRUSR) != 0)
         ret += 400;
@@ -59,7 +60,6 @@ int         ft_ls_return_rights(t_dir *fichierLu)
 char        *ft_ls_return_file(char *str)
 {
     int     index;
-    char    *ret;
 
     index = ft_strlen(str);
     while (index >= 0)
@@ -101,4 +101,15 @@ char        *ft_ls_return_path(char *str)
         }
     }
     return (ret);
+}
+
+void            ft_ls_return_new_path(char **dst, char *str1, char *str2)
+{
+    int         size;
+
+    size = ft_strlen(str1) + ft_strlen(str2) + 1;
+    ft_strdel(dst);
+    *dst = (char*)malloc(sizeof(char) * size);
+    ft_strcpy(*dst, str1);
+    ft_strcat(*dst, str2);
 }

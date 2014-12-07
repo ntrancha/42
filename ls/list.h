@@ -50,6 +50,10 @@ struct			s_list_repere
 	t_list		*end;
 	t_llist		*next;
 	int			length;
+	int			size_link;
+	int			size_user;
+	int			size_group;
+	int			size_size;
 	char		*path;
 };
 

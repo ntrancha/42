@@ -10,10 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "param.h"
 #include <stdlib.h>
+#include <libft.h>
+#include "param.h"
 
-int			ft_ls_paramset_next(t_param *param, char *str, int count)
+static int	ft_ls_paramset_next(t_param *param, char *str, int count)
 {
 	if (str[count] == 'l')
 		param->l = 1;
@@ -84,6 +85,6 @@ t_param		*ft_ls_param_new(void)
 t_param		*ft_ls_param_del(t_param *param)
 {
 	ft_strdel(&param->prog_name);
-	ft_memdel(&param);
+	ft_memdel((void*)&param);
 	return (NULL);
 }

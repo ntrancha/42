@@ -1,22 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test.h                                             :+:      :+:    :+:   */
+/*   error.c	:+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ntrancha <ntrancha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/12/01 09:17:55 by ntrancha          #+#    #+#             */
-/*   Updated: 2014/12/01 10:11:00 by ntrancha         ###   ########.fr       */
+/*   Created: 2014/12/06 15:16:55 by ntrancha          #+#    #+#             */
+/*   Updated: 2014/12/06 15:16:55 by ntrancha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TEST_H
-# define TEST_H
-# include "dos.h"
-# include "param.h"
+#include "param.h"
+#include <libft.h>
+#include <errno.h>
 
-int	        ft_ls_test_dos(t_dos **dos, t_dos **file, t_param *param);
-int         ft_ls_test_file(char *str);
-int         ft_ls_test_dir(char *str);
-
-#endif
+void        ft_ls_error(char *str, t_param *param)
+{
+    ft_putstr(param->prog_name);
+    ft_putstr(": ");
+    ft_putstr(str);
+    ft_putstr(": ");
+    ft_putstr(strerror( errno ));
+    ft_putstr("\n");
+}

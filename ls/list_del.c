@@ -10,9 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <libft.h>
+#include <stdlib.h>
 #include "list.h"
 #include "list_del.h"
-#include <stdlib.h>
 
 t_llist     *ft_list_del_node(t_llist *repere, t_list *node)
 {
@@ -20,17 +21,17 @@ t_llist     *ft_list_del_node(t_llist *repere, t_list *node)
     {
         if (node->stats)
         {
-            ft_memdel(&(node->stats->user));
-            ft_memdel(&(node->stats->group));
-            ft_memdel(&(node->stats));
+            ft_memdel((void*)&(node->stats->user));
+            ft_memdel((void*)&(node->stats->group));
+            ft_memdel((void*)&(node->stats));
         }
-        ft_memdel(&(node->time));
-        ft_memdel(&(node->str));
+        ft_memdel((void*)&(node->time));
+        ft_memdel((void*)&(node->str));
         if (repere->end == node)
             repere->end = node->previous;
         if (repere->start == node)
             repere->end = node->next;
-        ft_memdel(&node);
+        ft_memdel((void*)&node);
         repere->length--;
         return (repere);
     }
@@ -50,8 +51,8 @@ t_llist     *ft_list_del_path(t_llist *repere)
         if (repere == NULL)
             return (NULL);
     }
-    ft_memdel(&repere->path);
-    ft_memdel(&repere);
+    ft_memdel((void*)&repere->path);
+    ft_memdel((void*)&repere);
     return (ret);
 }
 

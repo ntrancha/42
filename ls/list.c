@@ -10,8 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
+#include <libft.h>
 #include <stdlib.h>
+#include "list.h"
 
 t_llist         *ft_list_create(char *path)
 {   
@@ -24,7 +25,7 @@ t_llist         *ft_list_create(char *path)
     str = malloc(sizeof(char) * ft_strlen(path) + 1);
 	if (str == NULL)
 	{
-		ft_memdel(&p_new);
+		ft_memdel((void*)&p_new);
 		return (NULL);
 	}
     ft_strcpy(str, path);
@@ -48,14 +49,14 @@ t_list			*ft_list_add_malloc(void)
     stats = malloc(sizeof(t_stats));
 	if (stats == NULL)
 	{
-		ft_memdel(&item);
+		ft_memdel((void*)&item);
 		return (NULL);
 	}
     time = malloc(sizeof(t_time));
 	if (time == NULL)
 	{
-		ft_memdel(&item);
-		ft_memdel(&stats);
+		ft_memdel((void*)&item);
+		ft_memdel((void*)&stats);
 		return (NULL);
 	}
     item->stats = stats;
@@ -75,6 +76,10 @@ t_llist         *ft_list_add_complete(t_llist *repere, int size)
 	repere->end->time->atime = 0;
 	repere->end->time->ctime = 0;
 	repere->end->time->mtime = 0;
+	repere->size_link = 0;
+	repere->size_user = 0;
+	repere->size_group = 0;
+	repere->size_size = 0;
 	return (repere);
 }
 
@@ -91,7 +96,7 @@ t_llist         *ft_list_add(t_llist *repere, char *valeur, int size)
     new_item = ft_list_add_malloc();
 	if (new_item == NULL)
 	{
-		ft_memdel(&str);
+		ft_memdel((void*)&str);
 		return (NULL);
 	}
     ft_strcpy(str, valeur);
@@ -120,7 +125,7 @@ t_llist			*ft_list_add_dir(t_llist *racine, char *path)
     while (repere->next != NULL)
         repere = repere->next;
     repere->next = p_new;
-	ft_memdel(&repere->next->path);
+	ft_memdel((void*)&repere->next->path);
 	repere->next->path = malloc(sizeof(char) * ft_strlen(path) + 1);
 	ft_strcpy(repere->next->path, path);
 	return (racine);

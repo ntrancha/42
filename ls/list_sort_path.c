@@ -10,8 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "list.h"
+#include <libft.h>
 #include <stdlib.h>
+#include "list.h"
 
 int         path(t_llist **root, t_llist **tmp, t_llist **prev, t_llist **next)
 {
@@ -50,8 +51,6 @@ int         ft_list_sort_path2(t_llist **racine, int sort, int test)
 
 int         ft_list_sort_path(t_llist **racine, int sort)
 {
-    int     test;
-
     if (racine == NULL)
         return (-1);
     if (ft_list_sort_path2(racine, sort, 0) == 1)
