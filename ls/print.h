@@ -18,16 +18,9 @@
 # include "recup.h"
 
 void	print_rights(mode_t m);
-int     strs_max_len(t_llist *root);
+void   print_size_time(t_llist *root, t_stat s);
+void   print_link(t_llist *root, t_stat s);
+void   print_users(t_llist *root, t_stat s);
 void    print_space(int nbr);
-char    *get_user(t_stat s);
-int     ft_nbrlen(int nbr);
-char    *get_group(t_stat s);
-int     file_get(t_list *list, t_param *param);
-int     group_max_len(t_llist *root, int ret, int temp, t_param *param);
-int     user_max_len(t_llist *root, int ret, int temp, t_param *param);
-int     size_max_len(t_llist *root, int ret, t_param *param);
-int     links_max_len(t_llist *root, int ret, t_param *param);
-
 
 #endif

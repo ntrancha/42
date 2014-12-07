@@ -54,6 +54,8 @@ struct			s_list_repere
 	int			size_user;
 	int			size_group;
 	int			size_size;
+	int			size_date;
+	int			size_year;
 	char		*path;
 };
 

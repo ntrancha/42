@@ -25,6 +25,7 @@
 #include "test.h"
 #include "error.h"
 #include "print.h"
+#include "date.h"
 #include <time.h>
 
 void			ft_ls_display_std(char *str)
@@ -52,6 +53,8 @@ void			ft_ls_recup_size(t_llist *root, t_param *param)
 	root->size_user = user_max_len(root, 0, 0, param);
 	root->size_group = group_max_len(root, 0, 0, param);
 	root->size_size = size_max_len(root, 0, param);
+	root->size_date = date_max_len(root, 0, param);
+	root->size_year = year_max_len(root, 0, param);
 }
 
 int				ft_ls_display_list(t_list *fichier, t_llist *root)
@@ -59,8 +62,6 @@ int				ft_ls_display_list(t_list *fichier, t_llist *root)
 	t_stat  	s;
 	char		*str;
 	char		*tmp;
-	t_pass		*pass;
-	int			len;
 
 	tmp = ft_strjoin(root->path, "/");
 	str = ft_strjoin(tmp, fichier->str);
@@ -69,25 +70,9 @@ int				ft_ls_display_list(t_list *fichier, t_llist *root)
     	if (stat(str, &s) != 0)
 			return (-1);
 	print_rights(s.st_mode);
-	print_space(root->size_link - ft_nbrlen(s.st_nlink) + 1);
-	ft_putnbr(s.st_nlink);
-	ft_putstr(" ");
-	pass = getpwuid(s.st_uid);
-	ft_putstr(pass->pw_name);
-	len = ft_strlen(pass->pw_name);
-	print_space(root->size_user - len + 1);
-	pass = getpwuid(s.st_gid);
-	if (pass != NULL)
-	{
-		ft_putstr(pass->pw_name);
-		len = ft_strlen(pass->pw_name);
-		print_space(root->size_group - len + 1);
-	}
-	print_space(root->size_size - ft_nbrlen(s.st_size));
-	ft_putnbr(s.st_size);
-	ft_putstr(" ");
-	ft_putstr(ctime(&s.st_mtime));
-	ft_putstr(" ");
+	print_link(root, s);
+	print_users(root, s);
+	print_size_time(root, s);
 	ft_ls_display_std(fichier->str);
 	ft_strdel(&str);
 	return (0);

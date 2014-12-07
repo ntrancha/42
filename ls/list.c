@@ -80,6 +80,8 @@ t_llist         *ft_list_add_complete(t_llist *repere, int size)
 	repere->size_user = 0;
 	repere->size_group = 0;
 	repere->size_size = 0;
+	repere->size_date = 0;
+	repere->size_year = 0;
 	return (repere);
 }
 

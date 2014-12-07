@@ -14,6 +14,10 @@
 #include "param.h"
 #include "list.h"
 #include "recup.h"
+#include "date.h"
+#include "extra.h"
+#include "size_max_nbr.h"
+#include "size_max_str.h"
 #include <pwd.h>
 #include <sys/stat.h>
 #include <unistd.h>
@@ -21,182 +25,57 @@
 #include <time.h>
 #include <pwd.h>
 #include <grp.h>
-#include <sys/ioctl.h>
-
-int		ft_nbrlen(int nbr)
-{
-	int	ret;
-
-	ret = 0;
-	if (nbr < 0)
-	{
-		nbr *= -1;
-		ret = 1;
-	}
-	while (nbr > 0)
-	{
-		nbr /= 10;
-		ret++;
-	}
-	return (ret);
-}
-
-char	*get_group(t_stat s)
-{
-	t_pass      *pass;
-
-	pass = getpwuid(s.st_gid);
-	if (pass == NULL)
-		return (NULL);
-    return (pass->pw_name);
-}
-
-int		file_get(t_list *list, t_param *param)
-{
-	if (param->a == 1)
-		return (1);
-	else
-		if (ft_strcmp(list->str, "..") != 0)
-			if (ft_strcmp(list->str, ".") != 0)
-				return (1);
-	return (0);
-}
-
-int		group_max_len(t_llist *root, int ret, int temp, t_param *param)
-{
-	char	*tmp;
-	t_list	*list;
-	t_stat	s;
-	char    *str;
-
-	list = root->start;
-	while (list != NULL)
-	{
-	    tmp = ft_strjoin(root->path, "/");
-		str = ft_strjoin(tmp, list->str);
-	    if (lstat(str, &s) == 0 && file_get(list, param) == 1)
-		{
-			temp = ft_strlen(get_group(s));
-			if (temp > ret)
-				ret = temp;
-		}
-		list = list->next;
-		ft_strdel(&str);
-		ft_strdel(&tmp);
-	}
-	return (ret);
-}
-
-char	*get_user(t_stat s)
-{
-	t_pass      *pass;
-
-	pass = getpwuid(s.st_uid);
-    return (pass->pw_name);
-}
-
-int		user_max_len(t_llist *root, int ret, int temp, t_param *param)
-{
-	char	*tmp;
-	t_list	*list;
-	t_stat	s;
-	char    *str;
-
-	list = root->start;
-	while (list != NULL)
-	{
-	    tmp = ft_strjoin(root->path, "/");
-		str = ft_strjoin(tmp, list->str);
-	    if (lstat(str, &s) == 0  && file_get(list, param) == 1)
-		{
-			temp = ft_strlen(get_user(s));
-			if (temp > ret)
-				ret = temp;
-		}
-		list = list->next;
-		ft_strdel(&str);
-		ft_strdel(&tmp);
-	}
-	return (ret);
-}
-
-int		size_max_len(t_llist *root, int ret, t_param *param)
-{
-	int	temp;
-	t_list	*list;
-	t_stat	s;
-	char        *str;
-    char        *tmp;
-
-	tmp = 0;
-	list = root->start;
-	while (list != NULL)
-	{
-	    tmp = ft_strjoin(root->path, "/");
-		str = ft_strjoin(tmp, list->str);
-	    if (lstat(str, &s) == 0  && file_get(list, param) == 1)
-		{
-			temp = ft_nbrlen(s.st_size);
-			if (temp > ret)
-				ret = temp;
-		}
-		list = list->next;
-		ft_strdel(&str);
-		ft_strdel(&tmp);
-	}
-	return (ret);
-}
-
-int		links_max_len(t_llist *root, int ret, t_param *param)
-{
-	int	temp;
-	t_list	*list;
-	t_stat	s;
-	char        *str;
-    char        *tmp;
-
-	tmp = 0;
-	list = root->start;
-	while (list != NULL)
-	{
-	    tmp = ft_strjoin(root->path, "/");
-		str = ft_strjoin(tmp, list->str);
-	    if (lstat(str, &s) == 0  && file_get(list, param) == 1)
-		{
-			temp = ft_nbrlen(s.st_nlink);
-			if (temp > ret)
-				ret = temp;
-		}
-		list = list->next;
-		ft_strdel(&str);
-		ft_strdel(&tmp);
-	}
-	return (ret);
-}
-
-int		strs_max_len(t_llist *root, t_param *param)
-{
-	int	ret;
-	int	tmp;
-	t_list	*list;
-
-	ret = 0;
-	tmp = 0;
-	list = root->start;
-	while (list != NULL)
-	{
-		tmp = ft_strlen(list->str);
-		if (tmp > ret && file_get(list, param) == 1)
-			ret = tmp;
-		list = list->next;
-	}
-	return (ret);
-}
 
 void	print_space(int nbr)
 {
 	while (nbr-- > 0)
 		ft_putchar(' ');
+}
+
+void   print_size_time(t_llist *root, t_stat s)
+{
+	char	*tmp;
+
+	print_space(root->size_size - ft_nbrlen(s.st_size));
+    ft_putnbr(s.st_size);
+    ft_putstr(" ");
+    ft_putstr(date_mois(ctime(&s.st_mtime)));
+    print_space(root->size_date - ft_strlen(date_mois(ctime(&s.st_mtime))) + 1);
+    ft_putstr(date_date(ctime(&s.st_mtime)));
+    ft_putstr(" ");
+    if (s.st_mtime > time(NULL) + 60 - 60 * 60 * 24 * 365)
+        tmp = date_hour(ctime(&s.st_mtime));
+    else
+        tmp = date_year(ctime(&s.st_mtime));
+    print_space(root->size_date - ft_strlen(tmp) + 2);
+    ft_putstr(tmp);
+    ft_putstr(" ");
+	ft_strdel(&tmp);
+}
+
+void   print_users(t_llist *root, t_stat s)
+{
+	t_pass      *pass;
+	int			len;
+
+	pass = getpwuid(s.st_uid);
+    ft_putstr(pass->pw_name);
+    len = ft_strlen(pass->pw_name);
+    print_space(root->size_user - len + 1);
+    pass = getpwuid(s.st_gid);
+	if (pass != NULL)
+    {
+        ft_putstr(pass->pw_name);
+        len = ft_strlen(pass->pw_name);
+        print_space(root->size_group - len + 1);
+    }
+}
+
+void   print_link(t_llist *root, t_stat s)
+{
+	print_space(root->size_link - ft_nbrlen(s.st_nlink) + 1);
+    ft_putnbr(s.st_nlink);
+    ft_putstr(" ");
 }
 
 void	print_rights(mode_t m)
