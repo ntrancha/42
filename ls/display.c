@@ -20,6 +20,9 @@
 #include "list.h"
 #include "list_sort.h"
 #include "param.h"
+#include "size_max_nbr.h"
+#include "size_max_str.h"
+#include "extra.h"
 #include "recup.h"
 #include "return.h"
 #include "test.h"
@@ -27,11 +30,28 @@
 #include "print.h"
 #include "date.h"
 #include <time.h>
+#include "option.h"
 
-void			ft_ls_display_std(char *str)
+int				ft_ls_display_std(char *file, t_param *param, t_llist *root)
 {
-	ft_putstr(str);
+	t_stat  	s;
+	char		*str;
+	char		*tmp;
+
+	tmp = ft_strjoin(root->path, "/");
+	str = ft_strjoin(tmp, file);
+	ft_strdel(&tmp);
+	ft_putstr(file);
+    if (lstat(str, &s) != 0)
+    	if (stat(str, &s) != 0)
+			return (-1);
+	if (param->p == 1 && S_ISDIR(s.st_mode) && param->carac == 0)
+		ft_putstr("/");
+	if (param->carac == 1)
+		option_carac(s);
 	ft_putstr("\n");
+	ft_strdel(&str);
+	return (0);
 }
 
 void			ft_ls_display_file(t_dos **file, t_param *param)
@@ -57,7 +77,7 @@ void			ft_ls_recup_size(t_llist *root, t_param *param)
 	root->size_year = year_max_len(root, 0, param);
 }
 
-int				ft_ls_display_list(t_list *fichier, t_llist *root)
+int				ft_ls_display_list(t_list *fichier, t_llist *root, t_param *param)
 {
 	t_stat  	s;
 	char		*str;
@@ -73,7 +93,7 @@ int				ft_ls_display_list(t_list *fichier, t_llist *root)
 	print_link(root, s);
 	print_users(root, s);
 	print_size_time(root, s);
-	ft_ls_display_std(fichier->str);
+	ft_ls_display_std(fichier->str, param, root);
 	ft_strdel(&str);
 	return (0);
 }
@@ -91,10 +111,14 @@ void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
 		{
 			if (ft_strcmp(fichier->str, list->path) != 0)
 			{
-				if (param->l == 0)
-					ft_ls_display_std(fichier->str);
+				if (param->inode == 1)
+					option_inode(fichier->str, list->path);
+				if (param->l == 0 && param->commas == 0)
+					ft_ls_display_std(fichier->str, param, list);
+				else if (param->commas == 1 && param->l == 0)
+					option_commas(fichier, param, fichier->str);
 				else
-					ft_ls_display_list(fichier, list);
+					ft_ls_display_list(fichier, list, param);
 			}
 			if (fichier->stats->type == 'd' && param->recursive == 1)
 			{

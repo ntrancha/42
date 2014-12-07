@@ -14,45 +14,6 @@
 #include <libft.h>
 #include "param.h"
 
-static int	ft_ls_paramset_next(t_param *param, char *str, int count)
-{
-	if (str[count] == 'l')
-		param->l = 1;
-	else if (str[count] == 'R')
-		param->recursive = 1;
-	else if (str[count] == 'a')
-		param->a = 1;
-	else if (str[count] == 'r')
-		param->r = -1;
-	else if (str[count] == 't')
-		param->t = 1;
-	else
-	{
-		ft_putstr("option invalide -- '");
-		ft_putchar(str[count]);
-		ft_putstr("'\n");
-		return (-1);
-	}
-	count++;
-	return (count);
-}
-
-char        ft_ls_paramset(t_param *param, char *str)
-{
-	int     count;
-
-	count = 1;
-	if (param == NULL || str == NULL)
-		return (0);
-	while (str[count])
-	{
-		count = ft_ls_paramset_next(param, str, count);
-		if (count == -1)
-			return (-1);
-	}
-	return (0);
-}
-
 int         ft_ls_param(char *str)
 {
 	if (str[0] && str[1])
@@ -77,6 +38,11 @@ t_param		*ft_ls_param_new(void)
 	param->t = 0;
 	param->m = -1;
 	param->f = 0;
+	param->p = 0;
+	param->carac = 0;
+	param->inode = 0;
+	param->commas = 0;
+	param->total = 0;
 	param->recursive = 0;
 	param->prog_name = NULL;
 	return (param);

@@ -24,12 +24,14 @@ struct          s_param
     int         t; 
     int         m; 
     int         f; 
-	int			row;
-	int			col;
+    int         p; 
+    int         carac; 
+    int         commas; 
+    int         total; 
+    int         inode; 
     char		*prog_name; 
 };
 
-char	ft_ls_paramset(t_param *param, char *str);
 int		ft_ls_param(char *str);
 t_param	*ft_ls_param_new(void);
 t_param	*ft_ls_param_del(t_param *param);
