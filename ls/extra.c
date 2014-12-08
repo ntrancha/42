@@ -52,12 +52,12 @@ char		*ft_ls_add_path(char **fichier, char *path)
 
 char    *get_group(t_stat s)
 {
-    t_pass      *pass;
+    t_group      *group;
 
-    pass = getpwuid(s.st_gid);
-    if (pass == NULL)
+    group = getgrgid(s.st_gid);
+    if (group == NULL)
         return (NULL);
-    return (pass->pw_name);
+    return (group->gr_name);
 }
 
 int     file_get(t_list *list, t_param *param)
@@ -67,7 +67,8 @@ int     file_get(t_list *list, t_param *param)
     else
         if (ft_strcmp(list->str, "..") != 0)
             if (ft_strcmp(list->str, ".") != 0)
-                return (1);
+            	if (list->str[0] != '.' || param->almost == 1)
+               		return (1);
     return (0);
 }
 

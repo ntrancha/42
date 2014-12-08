@@ -56,6 +56,8 @@ struct			s_list_repere
 	int			size_size;
 	int			size_date;
 	int			size_year;
+	int			size_minor;
+	int			size_major;
 	char		*path;
 };
 

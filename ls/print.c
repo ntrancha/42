@@ -33,41 +33,46 @@ void	print_space(int nbr)
 		ft_putchar(' ');
 }
 
-void   print_size_time(t_llist *root, t_stat s)
+void   print_minor(t_llist *root, t_stat s)
 {
-	char	*tmp;
+	int	len;
 
-	print_space(root->size_size - ft_nbrlen(s.st_size));
-    ft_putnbr(s.st_size);
-    ft_putstr(" ");
-    ft_putstr(date_mois(ctime(&s.st_mtime)));
-    print_space(root->size_date - ft_strlen(date_mois(ctime(&s.st_mtime))) + 1);
-    ft_putstr(date_date(ctime(&s.st_mtime)));
-    ft_putstr(" ");
-    if (s.st_mtime > time(NULL) + 60 - 60 * 60 * 24 * 365)
-        tmp = date_hour(ctime(&s.st_mtime));
-    else
-        tmp = date_year(ctime(&s.st_mtime));
-    print_space(root->size_date - ft_strlen(tmp) + 2);
-    ft_putstr(tmp);
-    ft_putstr(" ");
-	ft_strdel(&tmp);
+    if (S_ISCHR(s.st_mode) || S_ISBLK(s.st_mode))
+	{
+    	print_space(root->size_minor - ft_nbrlen(minor(s.st_rdev)));
+		ft_putnbr(minor(s.st_rdev));
+		ft_putstr(", ");
+    	print_space(root->size_major - ft_nbrlen(major(s.st_rdev)));
+		ft_putnbr(major(s.st_rdev));
+		ft_putstr(" ");
+	}
+	else
+	{
+		if (root->size_major > 0)
+			len = root->size_major + root->size_minor - 3;
+		else
+			len = root->size_major + root->size_minor - 1;
+		print_space(len + root->size_size - ft_nbrlen(s.st_size) + 1);
+    	ft_putnbr(s.st_size);
+    	ft_putstr(" ");
+	}
 }
 
 void   print_users(t_llist *root, t_stat s)
 {
-	t_pass      *pass;
+	char        *user;
+	char		*group;
 	int			len;
 
-	pass = getpwuid(s.st_uid);
-    ft_putstr(pass->pw_name);
-    len = ft_strlen(pass->pw_name);
+	user = get_user(s);
+    ft_putstr(user);
+    len = ft_strlen(user);
     print_space(root->size_user - len + 1);
-    pass = getpwuid(s.st_gid);
-	if (pass != NULL)
+    group = get_group(s);
+	if (group != NULL)
     {
-        ft_putstr(pass->pw_name);
-        len = ft_strlen(pass->pw_name);
+        ft_putstr(group);
+        len = ft_strlen(group);
         print_space(root->size_group - len + 1);
     }
 }

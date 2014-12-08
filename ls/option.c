@@ -77,7 +77,11 @@ void	option_commas(t_list *file, t_param *param, char *str)
 	param->total += size;
 	ft_putstr(str);
 	if (file->next != NULL)
-		ft_putstr(", ");
+	{
+		ft_putstr(",");
+		if ((param->total + (int)ft_strlen(file->next->str) + 2) <= col)
+			ft_putstr(" ");
+	}
 	else
 		ft_putchar('\n');
 }

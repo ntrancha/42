@@ -36,10 +36,14 @@ t_param		*ft_ls_param_new(void)
 	param->r = 1;
 	param->a = 0;
 	param->t = 0;
+	param->u = 0;
+	param->s = 0;
+	param->c = 0;
 	param->m = -1;
 	param->f = 0;
 	param->p = 0;
 	param->carac = 0;
+	param->almost = 0;
 	param->inode = 0;
 	param->commas = 0;
 	param->total = 0;

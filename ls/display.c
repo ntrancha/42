@@ -17,8 +17,10 @@
 #include <libft.h>
 #include "display.h"
 #include "print.h"
+#include "print_size.h"
 #include "list.h"
 #include "list_sort.h"
+#include "list_sort_time.h"
 #include "param.h"
 #include "size_max_nbr.h"
 #include "size_max_str.h"
@@ -69,9 +71,11 @@ void			ft_ls_display_file(t_dos **file, t_param *param)
 void			ft_ls_recup_size(t_llist *root, t_param *param)
 {
 
-	root->size_link = links_max_len(root, 0, param);
 	root->size_user = user_max_len(root, 0, 0, param);
 	root->size_group = group_max_len(root, 0, 0, param);
+	root->size_minor = minor_max_len(root, 0, param);
+	root->size_major = major_max_len(root, 0, param);
+	root->size_link = links_max_len(root, 0, param);
 	root->size_size = size_max_len(root, 0, param);
 	root->size_date = date_max_len(root, 0, param);
 	root->size_year = year_max_len(root, 0, param);
@@ -92,7 +96,13 @@ int				ft_ls_display_list(t_list *fichier, t_llist *root, t_param *param)
 	print_rights(s.st_mode);
 	print_link(root, s);
 	print_users(root, s);
-	print_size_time(root, s);
+	print_minor(root, s, fichier);
+	if (param->u == 1)
+		print_size_atime(root, s);
+	else if (param->c == 1)
+		print_size_ctime(root, s);
+	else
+		print_size_mtime(root, s);
 	ft_ls_display_std(fichier->str, param, root);
 	ft_strdel(&str);
 	return (0);
@@ -107,7 +117,7 @@ void			ft_ls_display_next(t_llist *list, t_param *param, t_list *fichier)
 	str = NULL;
 	while (fichier)
 	{
-		if (fichier->str[0] != '.' || param->a)
+		if (file_get(fichier, param) == 1)
 		{
 			if (ft_strcmp(fichier->str, list->path) != 0)
 			{
@@ -151,10 +161,13 @@ void		ft_ls_display(t_llist *list, t_param *param)
 	{
 		if (param->l == 1)
 			ft_ls_recup_size(list, param);
-		if (param->t == 1)
-			ft_list_sort_mtime(list, 1);
-		else
-			ft_list_sort_name(list, 1);
+		//ft_list_sort_name(list, 1);
+		//if (param->t == 1)
+		//	ft_list_sort_mtime(list, param->r);
+		//else if (param->u == 1)
+		//	ft_list_sort_atime(list, param->r);
+		//if (param->s == 1)
+        //    ft_list_sort_size(list, param->r);
 		if (param->r == 1)
 			fichier = list->start;
 		else

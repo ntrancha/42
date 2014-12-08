@@ -34,6 +34,14 @@ static int  ft_ls_paramset_option(t_param *param, char *str, int count)
         param->inode = 1;
     else if (str[count] == 'm')
         param->commas = 1;
+    else if (str[count] == 'A')
+        param->almost = 1;
+    else if (str[count] == 'S')
+        param->s = 1;
+    else if (str[count] == 'C')
+        param->c = 1;
+    else if (str[count] == 'u')
+        param->u = 1;
 	else
 		return (0);
 	return (1);

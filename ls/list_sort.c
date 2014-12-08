@@ -13,6 +13,8 @@
 #include <libft.h>
 #include <stdlib.h>
 #include "list.h"
+#include "recup.h"
+#include <sys/stat.h>
 
 int			ft_list_permutte(t_llist *repere, t_list *node)
 {
@@ -77,24 +79,40 @@ int        ft_list_sort_name(t_llist *list, int s)
 	return (s);
 }
 
-int        ft_list_sort_size(t_llist *list, int s)
+static long long	get_size(char *file, char *path)
+{
+	t_stat      s;
+    char        *str;
+    char        *tmp;
+
+    tmp = ft_strjoin(path, "/");
+    str = ft_strjoin(tmp, file);
+    ft_strdel(&tmp);
+    if (lstat(str, &s) != 0)
+        if (stat(str, &s) != 0)
+            return (-1);
+    ft_strdel(&str);
+	return ((long long)s.st_size);
+}
+
+int			ft_list_sort_size(t_llist *list, int s)
 {
 	int		test;
 	int		test2;
-    int     size1;
-    int     size2;
+    long long     size1;
+    long long     size2;
     t_list  *node;
 
         node = list->start;
 		test2 = 0;
         while (node && node->next)
         {
-            size1 = node->time->size;
-            size2 = node->next->time->size;
+            size1 = get_size(node->str, list->path);
+            size2 = get_size(node->next->str, list->path);
 			test = 0;
-            if (size1 > size2 && s > 0)
+            if (size1 > size2 && s < 0)
 				test = 1;
-            if ((size1 < size2 && s < 0) || test == 1)
+            if ((size1 < size2 && s > 0) || test == 1)
                 test2 = ft_list_permutte(list, node);
             else
                 node = node->next;

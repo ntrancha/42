@@ -18,6 +18,7 @@
 #include "list.h"
 #include "list_sort.h"
 #include "list_sort_path.h"
+#include "list_sort_time.h"
 #include "list_del.h"
 #include "dos.h"
 #include "test.h"
@@ -25,6 +26,7 @@
 #include "display.h"
 #include "ft_ls.h"
 #include "print.h"
+#include "print_size.h"
 
 static int		ft_ls_arg_option(t_param *param, int argc, char **argv)
 {
@@ -73,11 +75,17 @@ static t_llist	*ft_ls3(t_llist *list, t_param *param)
 {
 	while (list != NULL)
 	{
-		ft_list_sort_name(list, param->r);
 		if (ft_ls_recup(list, param) == 0)
 			return (NULL);
+		ft_list_sort_name(list, param->r);
 		if (param->t == 1)
 			ft_list_sort_mtime(list, param->r);
+		if (param->u == 1)
+			ft_list_sort_atime(list, param->r);
+		if (param->c == 1)
+			ft_list_sort_ctime(list, param->r);
+		if (param->s == 1)
+			ft_list_sort_size(list, param->r);
 		ft_ls_display(list, param);
 		if (!(param->recursive == 1 || param->r == -1))
 			ft_list_sort_path(&list, param->r);

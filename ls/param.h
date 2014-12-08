@@ -23,11 +23,15 @@ struct          s_param
     int         r; 
     int         t; 
     int         m; 
+    int         s; 
+    int         u; 
+    int         c; 
     int         f; 
     int         p; 
     int         carac; 
     int         commas; 
     int         total; 
+    int         almost; 
     int         inode; 
     char		*prog_name; 
 };

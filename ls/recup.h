@@ -19,6 +19,7 @@
 typedef struct	dirent	t_dir;
 typedef struct	stat	t_stat;
 typedef struct	passwd	t_pass;
+typedef struct	group	t_group;
 
 int		ft_ls_recup(t_llist *list, t_param *param);
 void	ft_ls_recup_file(t_llist *list, t_param *param, t_dir *file);
