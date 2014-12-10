@@ -18,38 +18,6 @@
 #include <pwd.h>
 #include <grp.h>
 
-int			ft_ls_path(char *str)
-{
-	int		len;
-
-	len = ft_strlen(str);
-	if (len == 0)
-		return (-1);
-	if (len == 1)
-	{
-		if (str[0] == '/')
-			return (1);
-		return (3);
-	}
-	if (str[len - 1] == '/')
-		str[len - 1] = '\0';
-	if (str[0] == '/')
-		return (2);
-	return (3);
-}
-
-char		*ft_ls_add_path(char **fichier, char *path)
-{
-	char	*tmp;
-
-	tmp = ft_strdup(*fichier);
-	if (tmp == NULL)
-		return (NULL);
-	ft_strdel(fichier);
-	*fichier = ft_strjoin(path, tmp);
-	return (*fichier);
-}
-
 char    *get_group(t_stat s)
 {
     t_group      *group;
@@ -60,7 +28,7 @@ char    *get_group(t_stat s)
     return (group->gr_name);
 }
 
-int     file_get(t_list *list, t_param *param)
+int     file_ok(t_list *list, t_param *param)
 {
     if (param->a == 1)
         return (1);

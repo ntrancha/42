@@ -47,6 +47,7 @@ t_param		*ft_ls_param_new(void)
 	param->inode = 0;
 	param->commas = 0;
 	param->total = 0;
+	param->list_total = 0;
 	param->recursive = 0;
 	param->prog_name = NULL;
 	return (param);

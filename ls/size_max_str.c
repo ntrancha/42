@@ -37,7 +37,7 @@ int     major_max_len(t_llist *root, int ret, t_param *param)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0 && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0 && file_ok(list, param) == 1)
         {
 			if (S_ISCHR(s.st_mode) || S_ISBLK(s.st_mode))
 			{
@@ -64,7 +64,7 @@ int     group_max_len(t_llist *root, int ret, int temp, t_param *param)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0 && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0 && file_ok(list, param) == 1)
         {
             temp = ft_strlen(get_group(s));
             if (temp > ret)
@@ -85,13 +85,15 @@ int     user_max_len(t_llist *root, int ret, int temp, t_param *param)
     char    *str;
 
     list = root->start;
+	param->list_total = 0;
     while (list != NULL)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0  && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0  && file_ok(list, param) == 1)
         {
             temp = ft_strlen(get_user(s));
+			param->list_total += s.st_blocks / 2;
             if (temp > ret)
                 ret = temp;
         }
@@ -116,7 +118,7 @@ int     year_max_len(t_llist *root, int ret, t_param *param)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0  && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0  && file_ok(list, param) == 1)
         {
             if (s.st_mtime > time(NULL) + 60 - 60 * 60 * 24 * 365)
                 temp = 5;
@@ -144,7 +146,7 @@ int     strs_max_len(t_llist *root, t_param *param)
     while (list != NULL)
     {
         tmp = ft_strlen(list->str);
-        if (tmp > ret && file_get(list, param) == 1)
+        if (tmp > ret && file_ok(list, param) == 1)
             ret = tmp;
         list = list->next;
     }

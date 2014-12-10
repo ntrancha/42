@@ -58,7 +58,7 @@ int     date_max_len(t_llist *root, int ret, t_param *param)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0  && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0  && file_ok(list, param) == 1)
         {
             temp = ft_strlen(date_mois(ctime(&s.st_mtime)));
             if (temp > ret)
@@ -85,7 +85,7 @@ int     size_max_len(t_llist *root, int ret, t_param *param)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0  && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0  && file_ok(list, param) == 1)
         {
             temp = ft_nbrlen(s.st_size);
             if (temp > ret)
@@ -112,7 +112,7 @@ int     links_max_len(t_llist *root, int ret, t_param *param)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0  && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0  && file_ok(list, param) == 1)
         {
             temp = ft_nbrlen(s.st_nlink);
             if (temp > ret)
@@ -137,7 +137,7 @@ int     minor_max_len(t_llist *root, int ret, t_param *param)
     {
         tmp = ft_strjoin(root->path, "/");
         str = ft_strjoin(tmp, list->str);
-        if (lstat(str, &s) == 0 && file_get(list, param) == 1)
+        if (lstat(str, &s) == 0 && file_ok(list, param) == 1)
         {
             if (S_ISCHR(s.st_mode) || S_ISBLK(s.st_mode))
             {

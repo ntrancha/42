@@ -32,11 +32,15 @@ void   print_size_atime(t_llist *root, t_stat s)
 {
     char    *tmp;
 
-    ft_putstr(date_mois(ctime(&s.st_atime)));
+    tmp = date_mois(ctime(&s.st_atime));
+    ft_putstr(tmp);
+    ft_strdel(&tmp);
     print_space(root->size_date - ft_strlen(date_mois(ctime(&s.st_atime))) + 1);
-    ft_putstr(date_date(ctime(&s.st_atime)));
+    tmp = date_date(ctime(&s.st_atime));
+    ft_putstr(tmp);
+    ft_strdel(&tmp);
     ft_putstr(" ");
-    if (s.st_atime > time(NULL) + (24 * 60 * 60 * 365 / 2) + 60)
+    if (s.st_atime > time(NULL) - (24 * 60 * 60 * 365 / 2) + 60)
         tmp = date_hour(ctime(&s.st_atime));
     else
         tmp = date_year(ctime(&s.st_atime));
@@ -50,11 +54,15 @@ void   print_size_ctime(t_llist *root, t_stat s)
 {
     char    *tmp;
 
-    ft_putstr(date_mois(ctime(&s.st_ctime)));
+    tmp = date_mois(ctime(&s.st_ctime));
+    ft_putstr(tmp);
+    ft_strdel(&tmp);
     print_space(root->size_date - ft_strlen(date_mois(ctime(&s.st_ctime))) + 1);
-    ft_putstr(date_date(ctime(&s.st_ctime)));
+    tmp = date_date(ctime(&s.st_ctime));
+    ft_putstr(tmp);
+    ft_strdel(&tmp);
     ft_putstr(" ");
-    if (s.st_ctime > time(NULL) + (60 * 60 * 24 * 365 / 2) + 60)
+    if (s.st_ctime > time(NULL) - (60 * 60 * 24 * 365 / 2) + 60)
         tmp = date_hour(ctime(&s.st_ctime));
     else
         tmp = date_year(ctime(&s.st_ctime));
@@ -68,11 +76,15 @@ void   print_size_mtime(t_llist *root, t_stat s)
 {
     char    *tmp;
 
-    ft_putstr(date_mois(ctime(&s.st_mtime)));
+    tmp = date_mois(ctime(&s.st_mtime));
+    ft_putstr(tmp);
+    ft_strdel(&tmp);
     print_space(root->size_date - ft_strlen(date_mois(ctime(&s.st_mtime))) + 1);
-    ft_putstr(date_date(ctime(&s.st_mtime)));
+    tmp = date_date(ctime(&s.st_mtime));
+    ft_putstr(tmp);
+    ft_strdel(&tmp);
     ft_putstr(" ");
-    if (s.st_mtime > time(NULL) + (60 * 60 * 24 * 365 / 2) + 60)
+    if (s.st_mtime > time(NULL) - (60 * 60 * 24 * 365 / 2) + 60)
         tmp = date_hour(ctime(&s.st_mtime));
     else
         tmp = date_year(ctime(&s.st_mtime));

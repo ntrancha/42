@@ -41,7 +41,7 @@ int			ft_ls_test_dir(char *str)
 }
 
 
-int			ft_ls_test_file_next(char *path, char *file)
+static int	ft_ls_test_file_next(char *path, char *file)
 {
 	t_dir	*files;
 	DIR		*dir;
@@ -78,7 +78,7 @@ int			ft_ls_test_file(char *str)
 	return (ret);
 }
 
-int			ft_ls_test_dos2(t_dos *tmp, t_dos **file, t_param *param)
+static int	ft_ls_test_dos2(t_dos *tmp, t_dos **file, t_param *param)
 {
 	if (ft_ls_test_file(tmp->str) != -1)
 	{

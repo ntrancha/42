@@ -31,6 +31,7 @@ struct          s_param
     int         carac; 
     int         commas; 
     int         total; 
+    int         list_total; 
     int         almost; 
     int         inode; 
     char		*prog_name; 
