@@ -34,6 +34,7 @@ static void	param_zero(t_param *param)
 	param->s = 0;
 	param->c = 0;
 	param->f = 0;
+	param->n = 0;
 	param->p = 0;
 	param->carac = 0;
 	param->mode = 0;

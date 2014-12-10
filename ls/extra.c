@@ -101,5 +101,9 @@ void	print_mode(mode_t m)
 		mod += 2;
     if ((m & S_IXOTH) != 0)
 		mod += 1;
+	if (mod < 100)
+		ft_putchar('0');
+	if (mod < 10)
+		ft_putchar('0');
 	ft_putnbr(mod);
 }

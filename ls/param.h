@@ -23,6 +23,7 @@ struct          s_param
     int         r; 
     int         t; 
     int         m; 
+    int         n; 
     int         s; 
     int         u; 
     int         c; 

@@ -77,7 +77,7 @@ static void		display_param(t_param *param, t_list *file, t_llist *root)
 {
 	if (param->inode == 1)
 		option_inode(file->str, root->path);
-	if (param->l == 0 && param->commas == 0)
+	if (param->l == 0 && param->commas == 0 && param->mode == 0)
 		display_std(file->str, param, root);
 	else if (param->commas == 1 && param->l == 0)
 		option_commas(file, param, file->str);
@@ -91,7 +91,7 @@ static t_list	*display_next(t_llist *root, t_param *param, t_list *file)
 	{
 		if (file_ok(file, param) == 1)
 		{
-			if (ft_strcmp(file->str, root->path) != 0)
+			//if (ft_strcmp(file->str, root->path) != 0)
 			 	display_param(param, file, root);
 			if (file->stats->type == 'd' && param->recursive == 1)
 				if (add_path(root, file->str) == NULL)

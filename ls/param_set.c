@@ -24,8 +24,10 @@ static int  paramset_option_next(t_param *param, char *str, int count)
         param->group = 1;
     else if (str[count] == 'S')
         param->s = 1;
-    else if (str[count] == 'C')
+    else if (str[count] == 'c')
         param->c = 1;
+    else if (str[count] == 'n')
+        param->n = 1;
 	else
 		return (0);
 	return (1);
@@ -33,7 +35,7 @@ static int  paramset_option_next(t_param *param, char *str, int count)
 
 static int  paramset_option(t_param *param, char *str, int count)
 {
-    if (str[count] == 'l')
+    if (str[count] == 'l' || str[count] == 'n' || str[count] == 'G')
         param->l = 1;
     else if (str[count] == 'R')
         param->recursive = 1;

@@ -60,21 +60,33 @@ void   print_minor(t_llist *root, t_stat s)
 
 void   print_users(t_llist *root, t_stat s, t_param *param)
 {
-	char        *user;
-	char		*group;
 	int			len;
 
-	user = get_user(s);
-    ft_putstr(user);
-    len = ft_strlen(user);
-    print_space(root->size_user - len + 1);
-    group = get_group(s);
-	if (group != NULL && param->group == 0)
+	if (param->n == 1)
+	{
+    	len = ft_nbrlen(s.st_uid);
+    	print_space(root->size_user - len);
+		ft_putnbr(s.st_uid);
+	}
+	else
+	{
+	    ft_putstr(get_user(s));
+    	len = ft_strlen(get_user(s));
+    	print_space(root->size_user - len + 1 - param->group);
+	}
+	if (param->group == 0 && param->n == 0)
     {
-        ft_putstr(group);
-        len = ft_strlen(group);
-        print_space(root->size_group - len + 1);
+        ft_putstr(get_group(s));
+        len = ft_strlen(get_group(s));
+        print_space(root->size_group - len);
     }
+	if (param->n == 1 && param->group == 0)
+	{
+        len = ft_nbrlen(s.st_gid);
+        print_space(root->size_group - len + 1);
+		ft_putnbr(s.st_gid);
+	}
+	ft_putchar(' ');
 }
 
 void   print_link(t_llist *root, t_stat s)

@@ -35,6 +35,29 @@
 #include <time.h>
 #include "option.h"
 
+static int   display_link(char *file, char *path, int size, t_param *param)
+{
+    char    *str;
+    char    *tmp;
+	int     ret;
+    t_stat      s;
+
+    str = ft_strjoin(path, "/");
+    tmp = ft_strjoin(str, file);
+	ft_strdel(&str);
+    str = ft_strnew(size);
+    if ((ret = readlink(tmp, str, size)) == -1)
+        ft_ls_error(file, param);
+    str[ret] = '\0';
+    ft_putstr(" -> ");
+    ft_putstr(str);
+	if (lstat(str, &s) != 0)
+        stat(str, &s);
+	if (param->carac == 1 && S_ISDIR(s.st_mode))
+		ft_putchar('/');
+	ft_strdel(&str);
+	ft_strdel(&tmp);
+}
 int             display_list(t_list *file, t_llist *root, t_param *param)
 {
     t_stat      s;
@@ -78,7 +101,9 @@ int             display_std(char *file, t_param *param, t_llist *root)
     if (param->p == 1 && S_ISDIR(s.st_mode) && param->carac == 0)
         ft_putstr("/");
     if (param->carac == 1)
-        option_carac(s);
+        option_carac(s, param);
+	if (S_ISLNK((s).st_mode) && param->l == 1)
+		display_link(file, root->path, s.st_size, param);	
     ft_putstr("\n");
     ft_strdel(&str);
     return (0);

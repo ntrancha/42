@@ -17,16 +17,22 @@
 #include "option.h"
 #include <sys/ioctl.h>
 
-void		option_carac(t_stat s)
+void		option_carac(t_stat s, t_param *param)
 {
 	if (S_ISDIR(s.st_mode))
 		ft_putchar('/');
 	else if (S_ISLNK(s.st_mode))
-        ft_putchar('@');
+	{
+		if (param->l == 0)
+       	 	ft_putchar('@');
+	}
 	else if (S_ISFIFO(s.st_mode))
         ft_putchar('|');
 	else if ((s.st_mode & S_IXUSR) != 0)
 		ft_putchar('*');
+    else if (S_ISSOCK(s.st_mode))
+		ft_putchar('=');
+
 }
 
 static void	option_list_next(mode_t m)

@@ -52,6 +52,31 @@ int     major_max_len(t_llist *root, int ret, t_param *param)
     return (ret);
 }
 
+int     gid_max_len(t_llist *root, int ret, int temp, t_param *param)
+{
+    char    *tmp;
+    t_list  *list;
+    t_stat  s;
+    char    *str;
+
+    list = root->start;
+    while (list != NULL)
+    {
+        tmp = ft_strjoin(root->path, "/");
+        str = ft_strjoin(tmp, list->str);
+        if (lstat(str, &s) == 0 && file_ok(list, param) == 1)
+        {
+            temp = ft_nbrlen(s.st_gid);
+            if (temp > ret)
+                ret = temp;
+        }
+        list = list->next;
+        ft_strdel(&str);
+        ft_strdel(&tmp);
+    }
+    return (ret);
+}
+
 int     group_max_len(t_llist *root, int ret, int temp, t_param *param)
 {
     char    *tmp;
@@ -67,6 +92,33 @@ int     group_max_len(t_llist *root, int ret, int temp, t_param *param)
         if (lstat(str, &s) == 0 && file_ok(list, param) == 1)
         {
             temp = ft_strlen(get_group(s));
+            if (temp > ret)
+                ret = temp;
+        }
+        list = list->next;
+        ft_strdel(&str);
+        ft_strdel(&tmp);
+    }
+    return (ret);
+}
+
+int     uid_max_len(t_llist *root, int ret, int temp, t_param *param)
+{
+    char    *tmp;
+    t_list  *list;
+    t_stat  s;
+    char    *str;
+
+    list = root->start;
+	param->list_total = 0;
+    while (list != NULL)
+    {
+        tmp = ft_strjoin(root->path, "/");
+        str = ft_strjoin(tmp, list->str);
+        if (lstat(str, &s) == 0  && file_ok(list, param) == 1)
+        {
+            temp = ft_nbrlen(s.st_uid);
+			param->list_total += s.st_blocks / 2;
             if (temp > ret)
                 ret = temp;
         }
