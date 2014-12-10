@@ -14,49 +14,53 @@
 #include <libft.h>
 #include "param.h"
 
-static int  paramset_option_next(t_param *param, char *str, int count)
+static int  paramset_option_next(t_param *param, char *str, int c)
 {
-    if (str[count] == 'u')
+    if (str[c] == 'u')
         param->u = 1;
-    else if (str[count] == 'M')
-        param->mode = 1;
-    else if (str[count] == 'G')
-        param->group = 1;
-    else if (str[count] == 'S')
+    else if (str[c] == 'S')
         param->s = 1;
-    else if (str[count] == 'c')
+    else if (str[c] == 'G')
+        param->group = 1;
+    else if (str[c] == 'R')
+        param->recursive = 1;
+    else if (str[c] == 'a')
+        param->a = 1;
+    else if (str[c] == 'r')
+        param->r = -1;
+    else if (str[c] == 'c')
         param->c = 1;
-    else if (str[count] == 'n')
-        param->n = 1;
-	else
+    else if (str[c] != 'g')
 		return (0);
 	return (1);
 }
 
-static int  paramset_option(t_param *param, char *str, int count)
+static int  paramset_option(t_param *param, char *str, int c)
 {
-    if (str[count] == 'l' || str[count] == 'n' || str[count] == 'G')
+    if (str[c] == 'l' || str[c] == 'n' || str[c] == 'o' || str[c] == 'M')
+	{
+    	if (str[c] == 'o')
+        	param->group = 1;
+    	else if (str[c] == 'n')
+        	param->n = 1;
+    	else if (str[c] == 'M')
+        	param->mode = 1;
         param->l = 1;
-    else if (str[count] == 'R')
-        param->recursive = 1;
-    else if (str[count] == 'a')
-        param->a = 1;
-    else if (str[count] == 'r')
-        param->r = -1;
-    else if (str[count] == 't')
+	}
+    else if (str[c] == 't')
         param->t = 1;
-    else if (str[count] == 'p')
+    else if (str[c] == 'p')
         param->p = 1;
-    else if (str[count] == 'F')
+    else if (str[c] == 'F')
         param->carac = 1;
-    else if (str[count] == 'i')
+    else if (str[c] == 'i')
         param->inode = 1;
-    else if (str[count] == 'm')
+    else if (str[c] == 'm')
         param->commas = 1;
-    else if (str[count] == 'A')
+    else if (str[c] == 'A')
         param->almost = 1;
 	else
-		return (paramset_option_next(param, str, count));
+		return (paramset_option_next(param, str, c));
 	return (1);
 }
 
