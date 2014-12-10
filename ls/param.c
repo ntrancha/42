@@ -25,6 +25,27 @@ int         ft_ls_param(char *str)
 	return (0);
 }
 
+static void	param_zero(t_param *param)
+{
+	param->l = 0;
+	param->a = 0;
+	param->t = 0;
+	param->u = 0;
+	param->s = 0;
+	param->c = 0;
+	param->f = 0;
+	param->p = 0;
+	param->carac = 0;
+	param->mode = 0;
+	param->group = 0;
+	param->almost = 0;
+	param->inode = 0;
+	param->commas = 0;
+	param->total = 0;
+	param->list_total = 0;
+	param->recursive = 0;
+}
+
 t_param		*ft_ls_param_new(void)
 {
 	t_param	*param;
@@ -32,24 +53,10 @@ t_param		*ft_ls_param_new(void)
 	param = malloc(sizeof(t_param));
 	if (param == NULL)
 		return (NULL);
-	param->l = 0;
-	param->r = 1;
-	param->a = 0;
-	param->t = 0;
-	param->u = 0;
-	param->s = 0;
-	param->c = 0;
+	param_zero(param);
 	param->m = -1;
-	param->f = 0;
-	param->p = 0;
-	param->carac = 0;
-	param->almost = 0;
-	param->inode = 0;
-	param->commas = 0;
-	param->total = 0;
-	param->list_total = 0;
-	param->recursive = 0;
 	param->prog_name = NULL;
+	param->r = 1;
 	return (param);
 }
 

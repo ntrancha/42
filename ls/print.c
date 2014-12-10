@@ -58,7 +58,7 @@ void   print_minor(t_llist *root, t_stat s)
 	}
 }
 
-void   print_users(t_llist *root, t_stat s)
+void   print_users(t_llist *root, t_stat s, t_param *param)
 {
 	char        *user;
 	char		*group;
@@ -69,7 +69,7 @@ void   print_users(t_llist *root, t_stat s)
     len = ft_strlen(user);
     print_space(root->size_user - len + 1);
     group = get_group(s);
-	if (group != NULL)
+	if (group != NULL && param->group == 0)
     {
         ft_putstr(group);
         len = ft_strlen(group);
@@ -84,7 +84,7 @@ void   print_link(t_llist *root, t_stat s)
     ft_putstr(" ");
 }
 
-void	print_rights(mode_t m)
+void	print_rights(mode_t m, t_param *param)
 {
 	if (S_ISREG(m))
 		ft_putchar('-');
@@ -100,5 +100,8 @@ void	print_rights(mode_t m)
 		ft_putchar('c');
 	else if (S_ISSOCK(m))
 		ft_putchar('s');
-	option_list(m);
+	if (param->mode == 0)
+		option_list(m);
+	else
+		print_mode(m);
 }

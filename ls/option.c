@@ -29,17 +29,49 @@ void		option_carac(t_stat s)
 		ft_putchar('*');
 }
 
+static void	option_list_next(mode_t m)
+{
+    if ((m & S_IXGRP) != 0)
+		ft_putchar('x');
+	else
+		ft_putchar('-');
+    if ((m & S_IROTH) != 0)
+		ft_putchar('r');
+	else
+		ft_putchar('-');
+    if ((m & S_IWOTH) != 0)
+		ft_putchar('w');
+	else
+		ft_putchar('-');
+    if ((m & S_IXOTH) != 0)
+		ft_putchar('x');
+	else
+		ft_putchar('-');
+}
+
 void		option_list(mode_t m)
 {
-	((m & S_IRUSR) != 0) ? ft_putchar('r') : ft_putchar('-');
-    ((m & S_IWUSR) != 0) ? ft_putchar('w') : ft_putchar('-');
-    ((m & S_IXUSR) != 0) ? ft_putchar('x') : ft_putchar('-');
-    ((m & S_IRGRP) != 0) ? ft_putchar('r') : ft_putchar('-');
-    ((m & S_IWGRP) != 0) ? ft_putchar('w') : ft_putchar('-');
-    ((m & S_IXGRP) != 0) ? ft_putchar('x') : ft_putchar('-');
-    ((m & S_IROTH) != 0) ? ft_putchar('r') : ft_putchar('-');
-    ((m & S_IWOTH) != 0) ? ft_putchar('w') : ft_putchar('-');
-    ((m & S_IXOTH) != 0) ? ft_putchar('x') : ft_putchar('-');
+	if ((m & S_IRUSR) != 0)
+		ft_putchar('r');
+	else
+		ft_putchar('-');
+    if ((m & S_IWUSR) != 0)
+		ft_putchar('w');
+	else
+		ft_putchar('-');
+    if ((m & S_IXUSR) != 0)
+		ft_putchar('x');
+	else
+		ft_putchar('-');
+    if ((m & S_IRGRP) != 0)
+		ft_putchar('r');
+	else
+		ft_putchar('-');
+    if ((m & S_IWGRP) != 0)
+		ft_putchar('w');
+	else
+		ft_putchar('-');
+	option_list_next(m);
 }
 
 int			option_inode(char *file, char*path)

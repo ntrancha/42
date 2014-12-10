@@ -29,6 +29,8 @@ struct          s_param
     int         f; 
     int         p; 
     int         carac; 
+    int         group; 
+    int         mode; 
     int         commas; 
     int         total; 
     int         list_total; 

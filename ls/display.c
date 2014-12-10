@@ -92,15 +92,12 @@ static t_list	*display_next(t_llist *root, t_param *param, t_list *file)
 		if (file_ok(file, param) == 1)
 		{
 			if (ft_strcmp(file->str, root->path) != 0)
-				display_param(param, file, root);
+			 	display_param(param, file, root);
 			if (file->stats->type == 'd' && param->recursive == 1)
 				if (add_path(root, file->str) == NULL)
 					return (NULL);
 		}
-		if (param->r == 1)
-			file = file->next;
-		else
-			file = file->previous;
+		file = file->next;
 	}
 	return (NULL);
 }
@@ -111,10 +108,7 @@ void			display(t_llist *root, t_param *param)
 
 	if (root)
 	{
-		if (param->r == 1)
-			file = root->start;
-		else
-			file = root->end;
+		file = root->start;
 		if (param->recursive == 1)
 		{
 			ft_putstr(root->path);

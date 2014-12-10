@@ -22,6 +22,7 @@
 #include "list_del.h"
 #include "dos.h"
 #include "test.h"
+#include "extra.h"
 #include "recup.h"
 #include "display.h"
 #include "display_list.h"
@@ -32,6 +33,8 @@
 
 static t_llist	*end(t_llist *list, t_param *param)
 {
+	char	*str;
+
 	while (list != NULL)
 	{
 		if (ft_ls_recup(list, param) == 0)
@@ -46,11 +49,13 @@ static t_llist	*end(t_llist *list, t_param *param)
 		if (param->s == 1)
 			ft_list_sort_size(list, param->r);
 		display(list, param);
+		str = ft_strdup(list->path);
 		if (!(param->recursive == 1 || param->r == -1))
 			ft_list_sort_path(&list, param->r);
 		list = ft_list_del_path(list);
 		if (list && (param->recursive == 1 || param->r == -1))
 			ft_list_sort_path(&list, param->r);
+		list = recursive_path(list, param, str);
 		if (list)
 			ft_putstr("\n");
 	}

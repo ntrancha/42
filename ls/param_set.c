@@ -14,7 +14,24 @@
 #include <libft.h>
 #include "param.h"
 
-static int  ft_ls_paramset_option(t_param *param, char *str, int count)
+static int  paramset_option_next(t_param *param, char *str, int count)
+{
+    if (str[count] == 'u')
+        param->u = 1;
+    else if (str[count] == 'M')
+        param->mode = 1;
+    else if (str[count] == 'G')
+        param->group = 1;
+    else if (str[count] == 'S')
+        param->s = 1;
+    else if (str[count] == 'C')
+        param->c = 1;
+	else
+		return (0);
+	return (1);
+}
+
+static int  paramset_option(t_param *param, char *str, int count)
 {
     if (str[count] == 'l')
         param->l = 1;
@@ -36,20 +53,14 @@ static int  ft_ls_paramset_option(t_param *param, char *str, int count)
         param->commas = 1;
     else if (str[count] == 'A')
         param->almost = 1;
-    else if (str[count] == 'S')
-        param->s = 1;
-    else if (str[count] == 'C')
-        param->c = 1;
-    else if (str[count] == 'u')
-        param->u = 1;
 	else
-		return (0);
+		return (paramset_option_next(param, str, count));
 	return (1);
 }
 
-static int  ft_ls_paramset_next(t_param *param, char *str, int count)
+static int  paramset_next(t_param *param, char *str, int count)
 {
-    if (ft_ls_paramset_option(param, str, count) == 0)
+    if (paramset_option(param, str, count) == 0)
     {
         ft_putstr("option invalide -- '");
         ft_putchar(str[count]);
@@ -69,7 +80,7 @@ char        ft_ls_paramset(t_param *param, char *str)
         return (0);
     while (str[count])
     {
-        count = ft_ls_paramset_next(param, str, count);
+        count = paramset_next(param, str, count);
         if (count == -1)
             return (-1);
     }

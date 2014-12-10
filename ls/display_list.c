@@ -47,9 +47,9 @@ int             display_list(t_list *file, t_llist *root, t_param *param)
     if (lstat(str, &s) != 0)
         if (stat(str, &s) != 0)
             return (-1);
-    print_rights(s.st_mode);
+    print_rights(s.st_mode, param);
     print_link(root, s);
-    print_users(root, s);
+    print_users(root, s, param);
     print_minor(root, s, file);
     if (param->u == 1)
         print_size_atime(root, s);
